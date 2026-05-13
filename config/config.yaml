@@ -1,0 +1,17 @@
+app:
+  name: 办公助手
+  version: 1.0.0
+  trial_days: 90
+
+database:
+  path: data/example_db.sqlite
+
+logging:
+  level: INFO
+  path: logs/
+  format: "%(asctime)s - %(levelname)s - %(message)s"
+
+browser:
+  timeout: 30
+  headless: false
+  download_path: downloads/

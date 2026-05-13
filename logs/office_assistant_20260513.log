@@ -1,0 +1,868 @@
+2026-05-13 11:22:42 - office_assistant - INFO - ==================================================
+2026-05-13 11:22:42 - office_assistant - INFO - 办公助手启动
+2026-05-13 11:22:42 - office_assistant - INFO - ==================================================
+2026-05-13 11:22:42 - office_assistant - INFO - 创建试用许可证，到期时间: 2026-08-11 11:22:42.588805
+2026-05-13 11:22:42 - office_assistant - INFO - 许可证检查: 有效, 到期时间: 2026-08-11 11:22:42.588805
+2026-05-13 11:22:42 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 11:22:42 - office_assistant - INFO - 首次启动，创建Demo任务
+2026-05-13 11:22:42 - office_assistant - INFO - 添加任务成功: 百度搜索测试
+2026-05-13 11:22:43 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 11:22:43 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 11:22:43 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 11:22:43 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 11:27:43 - office_assistant - INFO - ============================================================
+2026-05-13 11:27:43 - office_assistant - INFO - 开始执行任务: 百度搜索测试
+2026-05-13 11:27:43 - office_assistant - INFO - ============================================================
+2026-05-13 11:27:43 - office_assistant - INFO - 更新任务状态: 1 -> running
+2026-05-13 11:27:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 11:27:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 11:27:43 - office_assistant - ERROR - 浏览器初始化失败: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+Traceback (most recent call last):
+  File "C:\Users\njf\Documents\trae_projects\TEST_PROJECT\office_assistant_new\src\core\browser_manager.py", line 30, in initialize
+    self.page = ChromiumPage(chromium_options=options)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+2026-05-13 11:27:43 - office_assistant - ERROR - 浏览器初始化失败
+2026-05-13 11:27:43 - office_assistant - INFO - 更新任务状态: 1 -> failed
+2026-05-13 11:32:43 - office_assistant - INFO - ============================================================
+2026-05-13 11:32:43 - office_assistant - INFO - 开始执行任务: 百度搜索测试
+2026-05-13 11:32:43 - office_assistant - INFO - ============================================================
+2026-05-13 11:32:43 - office_assistant - INFO - 更新任务状态: 1 -> running
+2026-05-13 11:32:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 11:32:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 11:32:43 - office_assistant - ERROR - 浏览器初始化失败: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+Traceback (most recent call last):
+  File "C:\Users\njf\Documents\trae_projects\TEST_PROJECT\office_assistant_new\src\core\browser_manager.py", line 30, in initialize
+    self.page = ChromiumPage(chromium_options=options)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+2026-05-13 11:32:43 - office_assistant - ERROR - 浏览器初始化失败
+2026-05-13 11:32:43 - office_assistant - INFO - 更新任务状态: 1 -> failed
+2026-05-13 11:37:43 - office_assistant - INFO - ============================================================
+2026-05-13 11:37:43 - office_assistant - INFO - 开始执行任务: 百度搜索测试
+2026-05-13 11:37:43 - office_assistant - INFO - ============================================================
+2026-05-13 11:37:43 - office_assistant - INFO - 更新任务状态: 1 -> running
+2026-05-13 11:37:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 11:37:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 11:37:43 - office_assistant - ERROR - 浏览器初始化失败: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+Traceback (most recent call last):
+  File "C:\Users\njf\Documents\trae_projects\TEST_PROJECT\office_assistant_new\src\core\browser_manager.py", line 30, in initialize
+    self.page = ChromiumPage(chromium_options=options)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+2026-05-13 11:37:43 - office_assistant - ERROR - 浏览器初始化失败
+2026-05-13 11:37:43 - office_assistant - INFO - 更新任务状态: 1 -> failed
+2026-05-13 11:42:43 - office_assistant - INFO - ============================================================
+2026-05-13 11:42:43 - office_assistant - INFO - 开始执行任务: 百度搜索测试
+2026-05-13 11:42:43 - office_assistant - INFO - ============================================================
+2026-05-13 11:42:43 - office_assistant - INFO - 更新任务状态: 1 -> running
+2026-05-13 11:42:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 11:42:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 11:42:43 - office_assistant - ERROR - 浏览器初始化失败: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+Traceback (most recent call last):
+  File "C:\Users\njf\Documents\trae_projects\TEST_PROJECT\office_assistant_new\src\core\browser_manager.py", line 30, in initialize
+    self.page = ChromiumPage(chromium_options=options)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+2026-05-13 11:42:43 - office_assistant - ERROR - 浏览器初始化失败
+2026-05-13 11:42:43 - office_assistant - INFO - 更新任务状态: 1 -> failed
+2026-05-13 11:47:43 - office_assistant - INFO - ============================================================
+2026-05-13 11:47:43 - office_assistant - INFO - 开始执行任务: 百度搜索测试
+2026-05-13 11:47:43 - office_assistant - INFO - ============================================================
+2026-05-13 11:47:43 - office_assistant - INFO - 更新任务状态: 1 -> running
+2026-05-13 11:47:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 11:47:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 11:47:43 - office_assistant - ERROR - 浏览器初始化失败: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+Traceback (most recent call last):
+  File "C:\Users\njf\Documents\trae_projects\TEST_PROJECT\office_assistant_new\src\core\browser_manager.py", line 30, in initialize
+    self.page = ChromiumPage(chromium_options=options)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+2026-05-13 11:47:43 - office_assistant - ERROR - 浏览器初始化失败
+2026-05-13 11:47:43 - office_assistant - INFO - 更新任务状态: 1 -> failed
+2026-05-13 11:52:43 - office_assistant - INFO - ============================================================
+2026-05-13 11:52:43 - office_assistant - INFO - 开始执行任务: 百度搜索测试
+2026-05-13 11:52:43 - office_assistant - INFO - ============================================================
+2026-05-13 11:52:43 - office_assistant - INFO - 更新任务状态: 1 -> running
+2026-05-13 11:52:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 11:52:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 11:52:43 - office_assistant - ERROR - 浏览器初始化失败: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+Traceback (most recent call last):
+  File "C:\Users\njf\Documents\trae_projects\TEST_PROJECT\office_assistant_new\src\core\browser_manager.py", line 30, in initialize
+    self.page = ChromiumPage(chromium_options=options)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+2026-05-13 11:52:43 - office_assistant - ERROR - 浏览器初始化失败
+2026-05-13 11:52:43 - office_assistant - INFO - 更新任务状态: 1 -> failed
+2026-05-13 11:57:43 - office_assistant - INFO - ============================================================
+2026-05-13 11:57:43 - office_assistant - INFO - 开始执行任务: 百度搜索测试
+2026-05-13 11:57:43 - office_assistant - INFO - ============================================================
+2026-05-13 11:57:43 - office_assistant - INFO - 更新任务状态: 1 -> running
+2026-05-13 11:57:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 11:57:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 11:57:43 - office_assistant - ERROR - 浏览器初始化失败: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+Traceback (most recent call last):
+  File "C:\Users\njf\Documents\trae_projects\TEST_PROJECT\office_assistant_new\src\core\browser_manager.py", line 30, in initialize
+    self.page = ChromiumPage(chromium_options=options)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+2026-05-13 11:57:43 - office_assistant - ERROR - 浏览器初始化失败
+2026-05-13 11:57:43 - office_assistant - INFO - 更新任务状态: 1 -> failed
+2026-05-13 12:02:43 - office_assistant - INFO - ============================================================
+2026-05-13 12:02:43 - office_assistant - INFO - 开始执行任务: 百度搜索测试
+2026-05-13 12:02:43 - office_assistant - INFO - ============================================================
+2026-05-13 12:02:43 - office_assistant - INFO - 更新任务状态: 1 -> running
+2026-05-13 12:02:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 12:02:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 12:02:43 - office_assistant - ERROR - 浏览器初始化失败: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+Traceback (most recent call last):
+  File "C:\Users\njf\Documents\trae_projects\TEST_PROJECT\office_assistant_new\src\core\browser_manager.py", line 30, in initialize
+    self.page = ChromiumPage(chromium_options=options)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+2026-05-13 12:02:43 - office_assistant - ERROR - 浏览器初始化失败
+2026-05-13 12:02:43 - office_assistant - INFO - 更新任务状态: 1 -> failed
+2026-05-13 12:07:43 - office_assistant - INFO - ============================================================
+2026-05-13 12:07:43 - office_assistant - INFO - 开始执行任务: 百度搜索测试
+2026-05-13 12:07:43 - office_assistant - INFO - ============================================================
+2026-05-13 12:07:43 - office_assistant - INFO - 更新任务状态: 1 -> running
+2026-05-13 12:07:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 12:07:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 12:07:43 - office_assistant - ERROR - 浏览器初始化失败: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+Traceback (most recent call last):
+  File "C:\Users\njf\Documents\trae_projects\TEST_PROJECT\office_assistant_new\src\core\browser_manager.py", line 30, in initialize
+    self.page = ChromiumPage(chromium_options=options)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+2026-05-13 12:07:43 - office_assistant - ERROR - 浏览器初始化失败
+2026-05-13 12:07:43 - office_assistant - INFO - 更新任务状态: 1 -> failed
+2026-05-13 12:12:43 - office_assistant - INFO - ============================================================
+2026-05-13 12:12:43 - office_assistant - INFO - 开始执行任务: 百度搜索测试
+2026-05-13 12:12:43 - office_assistant - INFO - ============================================================
+2026-05-13 12:12:43 - office_assistant - INFO - 更新任务状态: 1 -> running
+2026-05-13 12:12:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 12:12:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 12:12:43 - office_assistant - ERROR - 浏览器初始化失败: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+Traceback (most recent call last):
+  File "C:\Users\njf\Documents\trae_projects\TEST_PROJECT\office_assistant_new\src\core\browser_manager.py", line 30, in initialize
+    self.page = ChromiumPage(chromium_options=options)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+2026-05-13 12:12:43 - office_assistant - ERROR - 浏览器初始化失败
+2026-05-13 12:12:43 - office_assistant - INFO - 更新任务状态: 1 -> failed
+2026-05-13 12:17:43 - office_assistant - INFO - ============================================================
+2026-05-13 12:17:43 - office_assistant - INFO - 开始执行任务: 百度搜索测试
+2026-05-13 12:17:43 - office_assistant - INFO - ============================================================
+2026-05-13 12:17:43 - office_assistant - INFO - 更新任务状态: 1 -> running
+2026-05-13 12:17:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 12:17:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 12:17:43 - office_assistant - ERROR - 浏览器初始化失败: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+Traceback (most recent call last):
+  File "C:\Users\njf\Documents\trae_projects\TEST_PROJECT\office_assistant_new\src\core\browser_manager.py", line 30, in initialize
+    self.page = ChromiumPage(chromium_options=options)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+2026-05-13 12:17:43 - office_assistant - ERROR - 浏览器初始化失败
+2026-05-13 12:17:43 - office_assistant - INFO - 更新任务状态: 1 -> failed
+2026-05-13 12:22:43 - office_assistant - INFO - ============================================================
+2026-05-13 12:22:43 - office_assistant - INFO - 开始执行任务: 百度搜索测试
+2026-05-13 12:22:43 - office_assistant - INFO - ============================================================
+2026-05-13 12:22:43 - office_assistant - INFO - 更新任务状态: 1 -> running
+2026-05-13 12:22:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 12:22:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 12:22:43 - office_assistant - ERROR - 浏览器初始化失败: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+Traceback (most recent call last):
+  File "C:\Users\njf\Documents\trae_projects\TEST_PROJECT\office_assistant_new\src\core\browser_manager.py", line 30, in initialize
+    self.page = ChromiumPage(chromium_options=options)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+2026-05-13 12:22:43 - office_assistant - ERROR - 浏览器初始化失败
+2026-05-13 12:22:43 - office_assistant - INFO - 更新任务状态: 1 -> failed
+2026-05-13 12:27:43 - office_assistant - INFO - ============================================================
+2026-05-13 12:27:43 - office_assistant - INFO - 开始执行任务: 百度搜索测试
+2026-05-13 12:27:43 - office_assistant - INFO - ============================================================
+2026-05-13 12:27:43 - office_assistant - INFO - 更新任务状态: 1 -> running
+2026-05-13 12:27:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 12:27:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 12:27:43 - office_assistant - ERROR - 浏览器初始化失败: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+Traceback (most recent call last):
+  File "C:\Users\njf\Documents\trae_projects\TEST_PROJECT\office_assistant_new\src\core\browser_manager.py", line 30, in initialize
+    self.page = ChromiumPage(chromium_options=options)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+2026-05-13 12:27:43 - office_assistant - ERROR - 浏览器初始化失败
+2026-05-13 12:27:43 - office_assistant - INFO - 更新任务状态: 1 -> failed
+2026-05-13 12:32:43 - office_assistant - INFO - ============================================================
+2026-05-13 12:32:43 - office_assistant - INFO - 开始执行任务: 百度搜索测试
+2026-05-13 12:32:43 - office_assistant - INFO - ============================================================
+2026-05-13 12:32:43 - office_assistant - INFO - 更新任务状态: 1 -> running
+2026-05-13 12:32:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 12:32:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 12:32:43 - office_assistant - ERROR - 浏览器初始化失败: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+Traceback (most recent call last):
+  File "C:\Users\njf\Documents\trae_projects\TEST_PROJECT\office_assistant_new\src\core\browser_manager.py", line 30, in initialize
+    self.page = ChromiumPage(chromium_options=options)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+2026-05-13 12:32:43 - office_assistant - ERROR - 浏览器初始化失败
+2026-05-13 12:32:43 - office_assistant - INFO - 更新任务状态: 1 -> failed
+2026-05-13 12:37:43 - office_assistant - INFO - ============================================================
+2026-05-13 12:37:43 - office_assistant - INFO - 开始执行任务: 百度搜索测试
+2026-05-13 12:37:43 - office_assistant - INFO - ============================================================
+2026-05-13 12:37:43 - office_assistant - INFO - 更新任务状态: 1 -> running
+2026-05-13 12:37:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 12:37:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 12:37:43 - office_assistant - ERROR - 浏览器初始化失败: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+Traceback (most recent call last):
+  File "C:\Users\njf\Documents\trae_projects\TEST_PROJECT\office_assistant_new\src\core\browser_manager.py", line 30, in initialize
+    self.page = ChromiumPage(chromium_options=options)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+2026-05-13 12:37:43 - office_assistant - ERROR - 浏览器初始化失败
+2026-05-13 12:37:43 - office_assistant - INFO - 更新任务状态: 1 -> failed
+2026-05-13 12:42:43 - office_assistant - INFO - ============================================================
+2026-05-13 12:42:43 - office_assistant - INFO - 开始执行任务: 百度搜索测试
+2026-05-13 12:42:43 - office_assistant - INFO - ============================================================
+2026-05-13 12:42:43 - office_assistant - INFO - 更新任务状态: 1 -> running
+2026-05-13 12:42:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 12:42:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 12:42:43 - office_assistant - ERROR - 浏览器初始化失败: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+Traceback (most recent call last):
+  File "C:\Users\njf\Documents\trae_projects\TEST_PROJECT\office_assistant_new\src\core\browser_manager.py", line 30, in initialize
+    self.page = ChromiumPage(chromium_options=options)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+2026-05-13 12:42:43 - office_assistant - ERROR - 浏览器初始化失败
+2026-05-13 12:42:43 - office_assistant - INFO - 更新任务状态: 1 -> failed
+2026-05-13 12:47:43 - office_assistant - INFO - ============================================================
+2026-05-13 12:47:43 - office_assistant - INFO - 开始执行任务: 百度搜索测试
+2026-05-13 12:47:43 - office_assistant - INFO - ============================================================
+2026-05-13 12:47:43 - office_assistant - INFO - 更新任务状态: 1 -> running
+2026-05-13 12:47:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 12:47:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 12:47:43 - office_assistant - ERROR - 浏览器初始化失败: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+Traceback (most recent call last):
+  File "C:\Users\njf\Documents\trae_projects\TEST_PROJECT\office_assistant_new\src\core\browser_manager.py", line 30, in initialize
+    self.page = ChromiumPage(chromium_options=options)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+2026-05-13 12:47:43 - office_assistant - ERROR - 浏览器初始化失败
+2026-05-13 12:47:43 - office_assistant - INFO - 更新任务状态: 1 -> failed
+2026-05-13 12:52:43 - office_assistant - INFO - ============================================================
+2026-05-13 12:52:43 - office_assistant - INFO - 开始执行任务: 百度搜索测试
+2026-05-13 12:52:43 - office_assistant - INFO - ============================================================
+2026-05-13 12:52:43 - office_assistant - INFO - 更新任务状态: 1 -> running
+2026-05-13 12:52:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 12:52:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 12:52:43 - office_assistant - ERROR - 浏览器初始化失败: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+Traceback (most recent call last):
+  File "C:\Users\njf\Documents\trae_projects\TEST_PROJECT\office_assistant_new\src\core\browser_manager.py", line 30, in initialize
+    self.page = ChromiumPage(chromium_options=options)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+2026-05-13 12:52:43 - office_assistant - ERROR - 浏览器初始化失败
+2026-05-13 12:52:43 - office_assistant - INFO - 更新任务状态: 1 -> failed
+2026-05-13 12:57:43 - office_assistant - INFO - ============================================================
+2026-05-13 12:57:43 - office_assistant - INFO - 开始执行任务: 百度搜索测试
+2026-05-13 12:57:43 - office_assistant - INFO - ============================================================
+2026-05-13 12:57:43 - office_assistant - INFO - 更新任务状态: 1 -> running
+2026-05-13 12:57:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 12:57:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 12:57:43 - office_assistant - ERROR - 浏览器初始化失败: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+Traceback (most recent call last):
+  File "C:\Users\njf\Documents\trae_projects\TEST_PROJECT\office_assistant_new\src\core\browser_manager.py", line 30, in initialize
+    self.page = ChromiumPage(chromium_options=options)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+2026-05-13 12:57:43 - office_assistant - ERROR - 浏览器初始化失败
+2026-05-13 12:57:43 - office_assistant - INFO - 更新任务状态: 1 -> failed
+2026-05-13 13:02:40 - office_assistant - INFO - ============================================================
+2026-05-13 13:02:40 - office_assistant - INFO - 开始执行任务: 百度搜索测试
+2026-05-13 13:02:40 - office_assistant - INFO - ============================================================
+2026-05-13 13:02:40 - office_assistant - INFO - 更新任务状态: 1 -> running
+2026-05-13 13:02:40 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 13:02:40 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 13:02:40 - office_assistant - ERROR - 浏览器初始化失败: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+Traceback (most recent call last):
+  File "C:\Users\njf\Documents\trae_projects\TEST_PROJECT\office_assistant_new\src\core\browser_manager.py", line 30, in initialize
+    self.page = ChromiumPage(chromium_options=options)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+2026-05-13 13:02:40 - office_assistant - ERROR - 浏览器初始化失败
+2026-05-13 13:02:40 - office_assistant - INFO - 更新任务状态: 1 -> failed
+2026-05-13 13:02:43 - office_assistant - INFO - ============================================================
+2026-05-13 13:02:43 - office_assistant - INFO - 开始执行任务: 百度搜索测试
+2026-05-13 13:02:43 - office_assistant - INFO - ============================================================
+2026-05-13 13:02:43 - office_assistant - INFO - 更新任务状态: 1 -> running
+2026-05-13 13:02:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 13:02:43 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 13:02:43 - office_assistant - ERROR - 浏览器初始化失败: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+Traceback (most recent call last):
+  File "C:\Users\njf\Documents\trae_projects\TEST_PROJECT\office_assistant_new\src\core\browser_manager.py", line 30, in initialize
+    self.page = ChromiumPage(chromium_options=options)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+2026-05-13 13:02:43 - office_assistant - ERROR - 浏览器初始化失败
+2026-05-13 13:02:43 - office_assistant - INFO - 更新任务状态: 1 -> failed
+2026-05-13 13:02:47 - office_assistant - INFO - ============================================================
+2026-05-13 13:02:47 - office_assistant - INFO - 开始执行任务: 百度搜索测试
+2026-05-13 13:02:47 - office_assistant - INFO - ============================================================
+2026-05-13 13:02:47 - office_assistant - INFO - 更新任务状态: 1 -> running
+2026-05-13 13:02:47 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 13:02:47 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 13:02:47 - office_assistant - ERROR - 浏览器初始化失败: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+Traceback (most recent call last):
+  File "C:\Users\njf\Documents\trae_projects\TEST_PROJECT\office_assistant_new\src\core\browser_manager.py", line 30, in initialize
+    self.page = ChromiumPage(chromium_options=options)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+2026-05-13 13:02:47 - office_assistant - ERROR - 浏览器初始化失败
+2026-05-13 13:02:47 - office_assistant - INFO - 更新任务状态: 1 -> failed
+2026-05-13 13:03:59 - office_assistant - INFO - ==================================================
+2026-05-13 13:03:59 - office_assistant - INFO - 办公助手启动
+2026-05-13 13:03:59 - office_assistant - INFO - ==================================================
+2026-05-13 13:03:59 - office_assistant - INFO - 许可证检查: 有效, 到期时间: 2026-08-11 11:22:42.588805
+2026-05-13 13:03:59 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 13:03:59 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 13:03:59 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 13:03:59 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 13:03:59 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 13:04:15 - office_assistant - INFO - ============================================================
+2026-05-13 13:04:15 - office_assistant - INFO - 开始执行任务: 百度搜索测试
+2026-05-13 13:04:15 - office_assistant - INFO - ============================================================
+2026-05-13 13:04:15 - office_assistant - INFO - 更新任务状态: 1 -> running
+2026-05-13 13:04:15 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 13:04:15 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 13:04:15 - office_assistant - ERROR - 浏览器初始化失败: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+Traceback (most recent call last):
+  File "C:\Users\njf\Documents\trae_projects\TEST_PROJECT\office_assistant_new\src\core\browser_manager.py", line 30, in initialize
+    self.page = ChromiumPage(chromium_options=options)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ChromiumPage.__new__() got an unexpected keyword argument 'chromium_options'
+2026-05-13 13:04:15 - office_assistant - ERROR - 浏览器初始化失败
+2026-05-13 13:04:15 - office_assistant - INFO - 更新任务状态: 1 -> failed
+2026-05-13 13:05:44 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 13:05:48 - office_assistant - ERROR - 浏览器初始化失败: 'ChromiumPageSetter' object has no attribute 'timeout'
+Traceback (most recent call last):
+  File "C:\Users\njf\Documents\trae_projects\TEST_PROJECT\office_assistant_new\src\core\browser_manager.py", line 31, in initialize
+    self.page.set.timeout(60)
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ChromiumPageSetter' object has no attribute 'timeout'
+2026-05-13 13:13:20 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 13:13:25 - office_assistant - INFO - 浏览器初始化成功
+2026-05-13 13:13:25 - office_assistant - INFO - 正在跳转: https://www.baidu.com
+2026-05-13 13:13:33 - office_assistant - ERROR - 点击失败: 
+该元素没有位置及大小。
+版本: 4.1.1.2
+2026-05-13 13:13:37 - office_assistant - INFO - 浏览器已关闭
+2026-05-13 13:14:07 - office_assistant - INFO - ==================================================
+2026-05-13 13:14:07 - office_assistant - INFO - 办公助手启动
+2026-05-13 13:14:07 - office_assistant - INFO - ==================================================
+2026-05-13 13:14:07 - office_assistant - INFO - 许可证检查: 有效, 到期时间: 2026-08-11 11:22:42.588805
+2026-05-13 13:14:07 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 13:14:07 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 13:14:07 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 13:14:07 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 13:14:07 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 13:15:09 - office_assistant - INFO - ============================================================
+2026-05-13 13:15:09 - office_assistant - INFO - 开始执行任务: 百度搜索测试
+2026-05-13 13:15:09 - office_assistant - INFO - ============================================================
+2026-05-13 13:15:09 - office_assistant - INFO - 更新任务状态: 1 -> running
+2026-05-13 13:15:09 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 13:15:09 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 13:15:13 - office_assistant - INFO - 浏览器初始化成功
+2026-05-13 13:15:13 - office_assistant - INFO - ==================================================
+2026-05-13 13:15:13 - office_assistant - INFO - 开始执行百度测试: 办公助手
+2026-05-13 13:15:13 - office_assistant - INFO - ==================================================
+2026-05-13 13:15:13 - office_assistant - INFO - [1/6] 正在打开百度首页...
+2026-05-13 13:15:13 - office_assistant - INFO - 正在跳转: https://www.baidu.com
+2026-05-13 13:15:18 - office_assistant - INFO - [OK] 百度首页打开成功
+2026-05-13 13:15:18 - office_assistant - INFO - [2/6] 正在输入搜索词: 办公助手
+2026-05-13 13:15:18 - office_assistant - INFO - [3/6] 正在点击搜索按钮...
+2026-05-13 13:15:18 - office_assistant - INFO - [4/6] 正在等待搜索结果...
+2026-05-13 13:15:18 - office_assistant - INFO - [5/6] 正在尝试切换到标签: 资讯
+2026-05-13 13:15:18 - office_assistant - INFO - [6/6] 测试任务执行完成
+2026-05-13 13:15:18 - office_assistant - INFO - ==================================================
+2026-05-13 13:15:18 - office_assistant - INFO - 百度测试任务执行成功！
+2026-05-13 13:15:18 - office_assistant - INFO - ==================================================
+2026-05-13 13:15:18 - office_assistant - INFO - 更新任务状态: 1 -> success
+2026-05-13 13:15:18 - office_assistant - INFO - [OK] 任务执行成功: 百度搜索测试
+2026-05-13 13:15:18 - office_assistant - INFO - ============================================================
+2026-05-13 13:15:41 - office_assistant - INFO - ==================================================
+2026-05-13 13:15:41 - office_assistant - INFO - 办公助手启动
+2026-05-13 13:15:41 - office_assistant - INFO - ==================================================
+2026-05-13 13:15:41 - office_assistant - INFO - 许可证检查: 有效, 到期时间: 2026-08-11 11:22:42.588805
+2026-05-13 13:15:41 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 13:15:41 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 13:15:41 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 13:15:41 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 13:15:41 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 13:15:45 - office_assistant - INFO - ============================================================
+2026-05-13 13:15:45 - office_assistant - INFO - 开始执行任务: 百度搜索测试
+2026-05-13 13:15:45 - office_assistant - INFO - ============================================================
+2026-05-13 13:15:45 - office_assistant - INFO - 更新任务状态: 1 -> running
+2026-05-13 13:15:45 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 13:15:45 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 13:15:47 - office_assistant - INFO - 浏览器初始化成功
+2026-05-13 13:15:47 - office_assistant - INFO - ==================================================
+2026-05-13 13:15:47 - office_assistant - INFO - 开始执行百度测试: 办公助手
+2026-05-13 13:15:47 - office_assistant - INFO - ==================================================
+2026-05-13 13:15:47 - office_assistant - INFO - [1/6] 正在打开百度首页...
+2026-05-13 13:15:47 - office_assistant - INFO - 正在跳转: https://www.baidu.com
+2026-05-13 13:15:50 - office_assistant - INFO - [OK] 百度首页打开成功
+2026-05-13 13:15:50 - office_assistant - INFO - [2/6] 正在输入搜索词: 办公助手
+2026-05-13 13:15:50 - office_assistant - INFO - [3/6] 正在点击搜索按钮...
+2026-05-13 13:15:50 - office_assistant - INFO - [4/6] 正在等待搜索结果...
+2026-05-13 13:15:50 - office_assistant - INFO - [5/6] 正在尝试切换到标签: 资讯
+2026-05-13 13:15:50 - office_assistant - INFO - [6/6] 测试任务执行完成
+2026-05-13 13:15:50 - office_assistant - INFO - ==================================================
+2026-05-13 13:15:50 - office_assistant - INFO - 百度测试任务执行成功！
+2026-05-13 13:15:50 - office_assistant - INFO - ==================================================
+2026-05-13 13:15:50 - office_assistant - INFO - 更新任务状态: 1 -> success
+2026-05-13 13:15:50 - office_assistant - INFO - [OK] 任务执行成功: 百度搜索测试
+2026-05-13 13:15:50 - office_assistant - INFO - ============================================================
+2026-05-13 13:16:59 - office_assistant - INFO - 更新任务成功: 1
+2026-05-13 13:16:59 - office_assistant - INFO - 任务已取消调度: 1
+2026-05-13 13:16:59 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 13:17:02 - office_assistant - INFO - 切换任务状态: 1 -> False
+2026-05-13 13:17:02 - office_assistant - INFO - 任务已取消调度: 1
+2026-05-13 13:17:06 - office_assistant - INFO - 切换任务状态: 1 -> True
+2026-05-13 13:17:06 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 13:17:07 - office_assistant - INFO - 切换任务状态: 1 -> False
+2026-05-13 13:17:07 - office_assistant - INFO - 任务已取消调度: 1
+2026-05-13 13:17:08 - office_assistant - INFO - 切换任务状态: 1 -> True
+2026-05-13 13:17:08 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 13:17:09 - office_assistant - INFO - 切换任务状态: 1 -> False
+2026-05-13 13:17:09 - office_assistant - INFO - 任务已取消调度: 1
+2026-05-13 13:17:11 - office_assistant - INFO - 切换任务状态: 1 -> True
+2026-05-13 13:17:11 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 13:17:12 - office_assistant - INFO - 切换任务状态: 1 -> False
+2026-05-13 13:17:12 - office_assistant - INFO - 任务已取消调度: 1
+2026-05-13 13:19:37 - office_assistant - INFO - ==================================================
+2026-05-13 13:19:37 - office_assistant - INFO - 办公助手启动
+2026-05-13 13:19:37 - office_assistant - INFO - ==================================================
+2026-05-13 13:19:37 - office_assistant - INFO - 许可证检查: 有效, 到期时间: 2026-08-11 11:22:42.588805
+2026-05-13 13:19:37 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 13:19:37 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 13:19:37 - office_assistant - INFO - 发现 0 个已启用的任务
+2026-05-13 13:19:37 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 13:20:12 - office_assistant - INFO - 切换任务状态: 1 -> True
+2026-05-13 13:20:12 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 13:20:14 - office_assistant - INFO - ============================================================
+2026-05-13 13:20:14 - office_assistant - INFO - 开始执行任务: 百度搜索测试
+2026-05-13 13:20:14 - office_assistant - INFO - ============================================================
+2026-05-13 13:20:14 - office_assistant - INFO - 更新任务状态: 1 -> running
+2026-05-13 13:20:14 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 13:20:14 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 13:20:15 - office_assistant - INFO - 浏览器初始化成功
+2026-05-13 13:20:15 - office_assistant - INFO - ==================================================
+2026-05-13 13:20:15 - office_assistant - INFO - 开始执行百度测试: 办公助手
+2026-05-13 13:20:15 - office_assistant - INFO - ==================================================
+2026-05-13 13:20:15 - office_assistant - INFO - [1/6] 正在打开百度首页...
+2026-05-13 13:20:15 - office_assistant - INFO - 正在跳转: https://www.baidu.com
+2026-05-13 13:20:18 - office_assistant - INFO - [OK] 百度首页打开成功
+2026-05-13 13:20:18 - office_assistant - INFO - [2/6] 正在输入搜索词: 办公助手
+2026-05-13 13:20:18 - office_assistant - INFO - [3/6] 正在点击搜索按钮...
+2026-05-13 13:20:18 - office_assistant - INFO - [4/6] 正在等待搜索结果...
+2026-05-13 13:20:18 - office_assistant - INFO - [5/6] 正在尝试切换到标签: 资讯
+2026-05-13 13:20:18 - office_assistant - INFO - [6/6] 测试任务执行完成
+2026-05-13 13:20:18 - office_assistant - INFO - ==================================================
+2026-05-13 13:20:18 - office_assistant - INFO - 百度测试任务执行成功！
+2026-05-13 13:20:18 - office_assistant - INFO - ==================================================
+2026-05-13 13:20:18 - office_assistant - INFO - 更新任务状态: 1 -> success
+2026-05-13 13:20:18 - office_assistant - INFO - [OK] 任务执行成功: 百度搜索测试
+2026-05-13 13:20:18 - office_assistant - INFO - ============================================================
+2026-05-13 13:22:16 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 13:22:21 - office_assistant - INFO - 浏览器初始化成功
+2026-05-13 13:22:21 - office_assistant - INFO - 正在跳转: https://www.baidu.com
+2026-05-13 13:24:44 - office_assistant - INFO - ==================================================
+2026-05-13 13:24:44 - office_assistant - INFO - 办公助手启动
+2026-05-13 13:24:44 - office_assistant - INFO - ==================================================
+2026-05-13 13:24:44 - office_assistant - INFO - 许可证检查: 有效, 到期时间: 2026-08-11 11:22:42.588805
+2026-05-13 13:24:44 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 13:24:44 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 13:24:44 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 13:24:44 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 13:24:44 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 13:24:59 - office_assistant - INFO - ============================================================
+2026-05-13 13:24:59 - office_assistant - INFO - 开始执行任务: 百度搜索测试
+2026-05-13 13:24:59 - office_assistant - INFO - ============================================================
+2026-05-13 13:24:59 - office_assistant - INFO - 更新任务状态: 1 -> running
+2026-05-13 13:24:59 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 13:24:59 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 13:25:01 - office_assistant - INFO - 浏览器初始化成功
+2026-05-13 13:25:01 - office_assistant - INFO - ==================================================
+2026-05-13 13:25:01 - office_assistant - INFO - 开始执行百度测试: 办公助手
+2026-05-13 13:25:01 - office_assistant - INFO - ==================================================
+2026-05-13 13:25:01 - office_assistant - INFO - [1/6] 正在打开百度首页...
+2026-05-13 13:25:03 - office_assistant - INFO - [OK] 百度首页打开成功
+2026-05-13 13:25:03 - office_assistant - INFO - [2/6] 正在输入搜索词: 办公助手
+2026-05-13 13:25:07 - office_assistant - INFO - [OK] 搜索词输入成功
+2026-05-13 13:25:07 - office_assistant - INFO - [3/6] 正在点击搜索按钮...
+2026-05-13 13:25:08 - office_assistant - ERROR - 点击搜索按钮失败: 
+该元素没有位置及大小。
+版本: 4.1.1.2
+Traceback (most recent call last):
+  File "C:\Users\njf\Documents\trae_projects\TEST_PROJECT\office_assistant_new\src\business\baidu_test.py", line 97, in execute
+    su_ele.click()
+  File "C:\Users\njf\AppData\Local\Programs\Python\Python311\Lib\site-packages\DrissionPage\_units\clicker.py", line 23, in __call__
+    return self.left(by_js, timeout, wait_stop)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njf\AppData\Local\Programs\Python\Python311\Lib\site-packages\DrissionPage\_units\clicker.py", line 69, in left
+    raise NoRectError
+DrissionPage.errors.NoRectError: 
+该元素没有位置及大小。
+版本: 4.1.1.2
+2026-05-13 13:25:08 - office_assistant - INFO - 更新任务状态: 1 -> failed
+2026-05-13 13:25:08 - office_assistant - ERROR - [FAIL] 任务执行失败: 百度搜索测试
+2026-05-13 13:25:08 - office_assistant - INFO - ============================================================
+2026-05-13 13:26:17 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 13:26:17 - office_assistant - INFO - 浏览器初始化成功
+2026-05-13 13:26:17 - office_assistant - INFO - ==================================================
+2026-05-13 13:26:17 - office_assistant - INFO - 开始执行百度测试: 办公助手
+2026-05-13 13:26:17 - office_assistant - INFO - ==================================================
+2026-05-13 13:26:17 - office_assistant - INFO - [1/6] 正在打开百度首页...
+2026-05-13 13:26:19 - office_assistant - INFO - [OK] 百度首页打开成功
+2026-05-13 13:26:19 - office_assistant - INFO - [2/6] 正在输入搜索词: 办公助手
+2026-05-13 13:26:22 - office_assistant - INFO - [OK] 搜索词输入成功
+2026-05-13 13:26:22 - office_assistant - INFO - [3/6] 正在点击搜索按钮...
+2026-05-13 13:26:24 - office_assistant - ERROR - 点击搜索按钮失败: 
+该元素没有位置及大小。
+版本: 4.1.1.2
+Traceback (most recent call last):
+  File "C:\Users\njf\Documents\trae_projects\TEST_PROJECT\office_assistant_new\src\business\baidu_test.py", line 97, in execute
+    su_ele.click()
+  File "C:\Users\njf\AppData\Local\Programs\Python\Python311\Lib\site-packages\DrissionPage\_units\clicker.py", line 23, in __call__
+    return self.left(by_js, timeout, wait_stop)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njf\AppData\Local\Programs\Python\Python311\Lib\site-packages\DrissionPage\_units\clicker.py", line 69, in left
+    raise NoRectError
+DrissionPage.errors.NoRectError: 
+该元素没有位置及大小。
+版本: 4.1.1.2
+2026-05-13 13:27:23 - office_assistant - INFO - ==================================================
+2026-05-13 13:27:23 - office_assistant - INFO - 办公助手启动
+2026-05-13 13:27:23 - office_assistant - INFO - ==================================================
+2026-05-13 13:27:23 - office_assistant - INFO - 许可证检查: 有效, 到期时间: 2026-08-11 11:22:42.588805
+2026-05-13 13:27:23 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 13:27:24 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 13:27:24 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 13:27:24 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 13:27:24 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 13:27:28 - office_assistant - INFO - ============================================================
+2026-05-13 13:27:28 - office_assistant - INFO - 开始执行任务: 百度搜索测试
+2026-05-13 13:27:28 - office_assistant - INFO - ============================================================
+2026-05-13 13:27:28 - office_assistant - INFO - 更新任务状态: 1 -> running
+2026-05-13 13:27:28 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 13:27:28 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 13:27:29 - office_assistant - INFO - 浏览器初始化成功
+2026-05-13 13:27:29 - office_assistant - INFO - ==================================================
+2026-05-13 13:27:29 - office_assistant - INFO - 开始执行百度测试: 办公助手
+2026-05-13 13:27:29 - office_assistant - INFO - ==================================================
+2026-05-13 13:27:29 - office_assistant - INFO - [1/6] 正在打开百度首页...
+2026-05-13 13:27:32 - office_assistant - INFO - [OK] 百度首页打开成功
+2026-05-13 13:27:32 - office_assistant - INFO - [2/6] 正在输入搜索词: 办公助手
+2026-05-13 13:27:35 - office_assistant - INFO - [OK] 搜索词输入成功
+2026-05-13 13:27:35 - office_assistant - INFO - [3/6] 正在点击搜索按钮...
+2026-05-13 13:27:39 - office_assistant - INFO - [OK] 搜索按钮点击成功
+2026-05-13 13:27:39 - office_assistant - INFO - [4/6] 正在等待搜索结果...
+2026-05-13 13:27:41 - office_assistant - INFO - [OK] 搜索结果加载完成
+2026-05-13 13:27:41 - office_assistant - INFO - 找到 21 条搜索结果
+2026-05-13 13:27:41 - office_assistant - INFO -   [1] 腾讯QClaw-微信直联-免部署一键办公名企
+2026-05-13 13:27:41 - office_assistant - INFO -   [2] WorkBuddy-腾讯版小龙虾,免部署安装即用,一分钟直连IM
+2026-05-13 13:27:41 - office_assistant - INFO -   [3] 办公工具软件-智能办公系统
+2026-05-13 13:27:41 - office_assistant - INFO - [5/6] 正在尝试切换到标签: 资讯
+2026-05-13 13:27:43 - office_assistant - INFO - [OK] 切换到 资讯 标签成功
+2026-05-13 13:27:43 - office_assistant - INFO - [6/6] 测试任务执行完成
+2026-05-13 13:27:43 - office_assistant - INFO - ==================================================
+2026-05-13 13:27:43 - office_assistant - INFO - 百度测试任务执行成功！
+2026-05-13 13:27:43 - office_assistant - INFO - ==================================================
+2026-05-13 13:27:43 - office_assistant - INFO - 更新任务状态: 1 -> success
+2026-05-13 13:27:43 - office_assistant - INFO - [OK] 任务执行成功: 百度搜索测试
+2026-05-13 13:27:43 - office_assistant - INFO - ============================================================
+2026-05-13 13:28:05 - office_assistant - INFO - ============================================================
+2026-05-13 13:28:05 - office_assistant - INFO - 开始执行任务: 百度搜索测试
+2026-05-13 13:28:05 - office_assistant - INFO - ============================================================
+2026-05-13 13:28:05 - office_assistant - INFO - 更新任务状态: 1 -> running
+2026-05-13 13:28:05 - office_assistant - INFO - ==================================================
+2026-05-13 13:28:05 - office_assistant - INFO - 开始执行百度测试: 办公助手
+2026-05-13 13:28:05 - office_assistant - INFO - ==================================================
+2026-05-13 13:28:05 - office_assistant - INFO - [1/6] 正在打开百度首页...
+2026-05-13 13:28:05 - office_assistant - ERROR - 百度测试业务执行失败: 
+与页面的连接已断开。
+版本: 4.1.1.2
+Traceback (most recent call last):
+  File "C:\Users\njf\Documents\trae_projects\TEST_PROJECT\office_assistant_new\src\business\baidu_test.py", line 73, in execute
+    tab.get("https://www.baidu.com")
+  File "C:\Users\njf\AppData\Local\Programs\Python\Python311\Lib\site-packages\DrissionPage\_pages\mix_tab.py", line 92, in get
+    return super(SessionPage, self).get(url, show_errmsg, retry, interval, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njf\AppData\Local\Programs\Python\Python311\Lib\site-packages\DrissionPage\_pages\chromium_base.py", line 414, in get
+    self._url_available = self._d_connect(self._url, times=retry, interval=interval,
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njf\AppData\Local\Programs\Python\Python311\Lib\site-packages\DrissionPage\_pages\chromium_base.py", line 773, in _d_connect
+    result = self._run_cdp('Page.navigate', frameId=self._frame_id, url=to_url, _timeout=timeout)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njf\AppData\Local\Programs\Python\Python311\Lib\site-packages\DrissionPage\_pages\chromium_base.py", line 389, in _run_cdp
+    return r if __ERROR__ not in r else raise_error(r, self.browser, ignore)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njf\AppData\Local\Programs\Python\Python311\Lib\site-packages\DrissionPage\_functions\tools.py", line 199, in raise_error
+    raise r
+DrissionPage.errors.PageDisconnectedError: 
+与页面的连接已断开。
+版本: 4.1.1.2
+2026-05-13 13:28:05 - office_assistant - INFO - 更新任务状态: 1 -> failed
+2026-05-13 13:28:05 - office_assistant - ERROR - [FAIL] 任务执行失败: 百度搜索测试
+2026-05-13 13:28:05 - office_assistant - INFO - ============================================================
+2026-05-13 13:28:15 - office_assistant - INFO - ============================================================
+2026-05-13 13:28:15 - office_assistant - INFO - 开始执行任务: 百度搜索测试
+2026-05-13 13:28:15 - office_assistant - INFO - ============================================================
+2026-05-13 13:28:15 - office_assistant - INFO - 更新任务状态: 1 -> running
+2026-05-13 13:28:15 - office_assistant - INFO - ==================================================
+2026-05-13 13:28:15 - office_assistant - INFO - 开始执行百度测试: 办公助手
+2026-05-13 13:28:15 - office_assistant - INFO - ==================================================
+2026-05-13 13:28:15 - office_assistant - INFO - [1/6] 正在打开百度首页...
+2026-05-13 13:28:15 - office_assistant - ERROR - 百度测试业务执行失败: 
+与页面的连接已断开。
+版本: 4.1.1.2
+Traceback (most recent call last):
+  File "C:\Users\njf\Documents\trae_projects\TEST_PROJECT\office_assistant_new\src\business\baidu_test.py", line 73, in execute
+    tab.get("https://www.baidu.com")
+  File "C:\Users\njf\AppData\Local\Programs\Python\Python311\Lib\site-packages\DrissionPage\_pages\mix_tab.py", line 92, in get
+    return super(SessionPage, self).get(url, show_errmsg, retry, interval, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njf\AppData\Local\Programs\Python\Python311\Lib\site-packages\DrissionPage\_pages\chromium_base.py", line 414, in get
+    self._url_available = self._d_connect(self._url, times=retry, interval=interval,
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njf\AppData\Local\Programs\Python\Python311\Lib\site-packages\DrissionPage\_pages\chromium_base.py", line 773, in _d_connect
+    result = self._run_cdp('Page.navigate', frameId=self._frame_id, url=to_url, _timeout=timeout)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njf\AppData\Local\Programs\Python\Python311\Lib\site-packages\DrissionPage\_pages\chromium_base.py", line 389, in _run_cdp
+    return r if __ERROR__ not in r else raise_error(r, self.browser, ignore)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njf\AppData\Local\Programs\Python\Python311\Lib\site-packages\DrissionPage\_functions\tools.py", line 199, in raise_error
+    raise r
+DrissionPage.errors.PageDisconnectedError: 
+与页面的连接已断开。
+版本: 4.1.1.2
+2026-05-13 13:28:15 - office_assistant - INFO - 更新任务状态: 1 -> failed
+2026-05-13 13:28:15 - office_assistant - ERROR - [FAIL] 任务执行失败: 百度搜索测试
+2026-05-13 13:28:15 - office_assistant - INFO - ============================================================
+2026-05-13 13:28:57 - office_assistant - INFO - ==================================================
+2026-05-13 13:28:57 - office_assistant - INFO - 办公助手启动
+2026-05-13 13:28:57 - office_assistant - INFO - ==================================================
+2026-05-13 13:28:57 - office_assistant - INFO - 许可证检查: 有效, 到期时间: 2026-08-11 11:22:42.588805
+2026-05-13 13:28:57 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 13:28:57 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 13:28:57 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 13:28:57 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 13:28:57 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 13:29:01 - office_assistant - INFO - ============================================================
+2026-05-13 13:29:01 - office_assistant - INFO - 开始执行任务: 百度搜索测试
+2026-05-13 13:29:01 - office_assistant - INFO - ============================================================
+2026-05-13 13:29:01 - office_assistant - INFO - 更新任务状态: 1 -> running
+2026-05-13 13:29:01 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 13:29:01 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 13:29:02 - office_assistant - INFO - 浏览器初始化成功
+2026-05-13 13:29:02 - office_assistant - INFO - ==================================================
+2026-05-13 13:29:02 - office_assistant - INFO - 开始执行百度测试: 办公助手
+2026-05-13 13:29:02 - office_assistant - INFO - ==================================================
+2026-05-13 13:29:02 - office_assistant - INFO - [1/6] 正在打开百度首页...
+2026-05-13 13:29:05 - office_assistant - INFO - [OK] 百度首页打开成功
+2026-05-13 13:29:05 - office_assistant - INFO - [2/6] 正在输入搜索词: 办公助手
+2026-05-13 13:29:08 - office_assistant - INFO - [OK] 搜索词输入成功
+2026-05-13 13:29:08 - office_assistant - INFO - [3/6] 正在点击搜索按钮...
+2026-05-13 13:29:11 - office_assistant - INFO - [OK] 搜索按钮点击成功
+2026-05-13 13:29:11 - office_assistant - INFO - [4/6] 正在等待搜索结果...
+2026-05-13 13:29:13 - office_assistant - INFO - [OK] 搜索结果加载完成
+2026-05-13 13:29:14 - office_assistant - INFO - 找到 21 条搜索结果
+2026-05-13 13:29:14 - office_assistant - INFO -   [1] 腾讯QClaw-微信直联-免部署一键办公名企
+2026-05-13 13:29:14 - office_assistant - INFO -   [2] WorkBuddy-腾讯版小龙虾,免部署安装即用,一分钟直连IM
+2026-05-13 13:29:14 - office_assistant - INFO -   [3] 办公工具软件-智能办公系统
+2026-05-13 13:29:14 - office_assistant - INFO - [5/6] 正在尝试切换到标签: 资讯
+2026-05-13 13:29:16 - office_assistant - INFO - [OK] 切换到 资讯 标签成功
+2026-05-13 13:29:16 - office_assistant - INFO - [6/6] 测试任务执行完成
+2026-05-13 13:29:16 - office_assistant - INFO - ==================================================
+2026-05-13 13:29:16 - office_assistant - INFO - 百度测试任务执行成功！
+2026-05-13 13:29:16 - office_assistant - INFO - ==================================================
+2026-05-13 13:29:16 - office_assistant - INFO - 更新任务状态: 1 -> success
+2026-05-13 13:29:16 - office_assistant - INFO - [OK] 任务执行成功: 百度搜索测试
+2026-05-13 13:29:16 - office_assistant - INFO - ============================================================
+2026-05-13 13:41:28 - office_assistant - INFO - ==================================================
+2026-05-13 13:41:28 - office_assistant - INFO - 办公助手启动
+2026-05-13 13:41:28 - office_assistant - INFO - ==================================================
+2026-05-13 13:41:28 - office_assistant - INFO - 许可证检查: 有效, 到期时间: 2026-08-11 11:22:42.588805
+2026-05-13 13:41:28 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 13:41:28 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 13:41:28 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 13:41:28 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 13:41:28 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 13:44:54 - office_assistant - INFO - ==================================================
+2026-05-13 13:44:54 - office_assistant - INFO - 办公助手启动
+2026-05-13 13:44:54 - office_assistant - INFO - ==================================================
+2026-05-13 13:44:54 - office_assistant - INFO - 许可证检查: 有效, 到期时间: 2026-08-11 11:22:42.588805
+2026-05-13 13:44:54 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 13:44:54 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 13:44:54 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 13:44:54 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 13:44:54 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 13:45:30 - office_assistant - INFO - ==================================================
+2026-05-13 13:45:30 - office_assistant - INFO - 办公助手启动
+2026-05-13 13:45:30 - office_assistant - INFO - ==================================================
+2026-05-13 13:45:30 - office_assistant - INFO - 许可证检查: 有效, 到期时间: 2026-08-11 11:22:42.588805
+2026-05-13 13:45:30 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 13:45:30 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 13:45:30 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 13:45:30 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 13:45:30 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 13:47:57 - office_assistant - INFO - ==================================================
+2026-05-13 13:47:57 - office_assistant - INFO - 办公助手启动
+2026-05-13 13:47:57 - office_assistant - INFO - ==================================================
+2026-05-13 13:47:57 - office_assistant - INFO - 许可证检查: 有效, 到期时间: 2026-08-11 11:22:42.588805
+2026-05-13 13:47:57 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 13:47:57 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 13:47:57 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 13:47:57 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 13:47:57 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 13:51:59 - office_assistant - INFO - ==================================================
+2026-05-13 13:51:59 - office_assistant - INFO - 办公助手启动
+2026-05-13 13:51:59 - office_assistant - INFO - ==================================================
+2026-05-13 13:51:59 - office_assistant - INFO - 许可证检查: 有效, 到期时间: 2026-08-11 11:22:42.588805
+2026-05-13 13:51:59 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 13:51:59 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 13:51:59 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 13:51:59 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 13:51:59 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 13:56:22 - office_assistant - INFO - ==================================================
+2026-05-13 13:56:22 - office_assistant - INFO - 办公助手启动
+2026-05-13 13:56:22 - office_assistant - INFO - ==================================================
+2026-05-13 13:56:22 - office_assistant - INFO - 许可证检查: 有效, 到期时间: 2026-08-11 11:22:42.588805
+2026-05-13 13:56:22 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 13:56:22 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 13:56:22 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 13:56:22 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 13:56:22 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 14:03:31 - office_assistant - INFO - ==================================================
+2026-05-13 14:03:31 - office_assistant - INFO - 办公助手启动
+2026-05-13 14:03:31 - office_assistant - INFO - ==================================================
+2026-05-13 14:03:31 - office_assistant - INFO - 许可证检查: 有效, 到期时间: 2026-08-11 11:22:42.588805
+2026-05-13 14:03:31 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 14:03:32 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 14:03:32 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 14:03:32 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 14:03:32 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 14:03:54 - office_assistant - INFO - ==================================================
+2026-05-13 14:03:54 - office_assistant - INFO - 办公助手启动
+2026-05-13 14:03:54 - office_assistant - INFO - ==================================================
+2026-05-13 14:03:54 - office_assistant - INFO - 许可证检查: 有效, 到期时间: 2026-08-11 11:22:42.588805
+2026-05-13 14:03:54 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 14:03:54 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 14:03:54 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 14:03:54 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 14:03:54 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 14:06:15 - office_assistant - INFO - ==================================================
+2026-05-13 14:06:15 - office_assistant - INFO - 办公助手启动
+2026-05-13 14:06:15 - office_assistant - INFO - ==================================================
+2026-05-13 14:06:15 - office_assistant - INFO - 许可证检查: 有效, 到期时间: 2026-08-11 11:22:42.588805
+2026-05-13 14:06:15 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 14:06:15 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 14:06:15 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 14:06:15 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 14:06:15 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 14:07:48 - office_assistant - INFO - ==================================================
+2026-05-13 14:07:48 - office_assistant - INFO - 办公助手启动
+2026-05-13 14:07:48 - office_assistant - INFO - ==================================================
+2026-05-13 14:07:48 - office_assistant - INFO - 许可证检查: 有效, 到期时间: 2026-08-11 11:22:42.588805
+2026-05-13 14:07:48 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 14:07:48 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 14:07:48 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 14:07:48 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 14:07:48 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 14:08:43 - office_assistant - INFO - ==================================================
+2026-05-13 14:08:43 - office_assistant - INFO - 办公助手启动
+2026-05-13 14:08:43 - office_assistant - INFO - ==================================================
+2026-05-13 14:08:43 - office_assistant - INFO - 许可证检查: 有效, 到期时间: 2026-08-11 11:22:42.588805
+2026-05-13 14:08:43 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 14:08:43 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 14:08:43 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 14:08:43 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 14:08:43 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 14:10:01 - office_assistant - INFO - ==================================================
+2026-05-13 14:10:01 - office_assistant - INFO - 办公助手启动
+2026-05-13 14:10:01 - office_assistant - INFO - ==================================================
+2026-05-13 14:10:01 - office_assistant - INFO - 许可证检查: 有效, 到期时间: 2026-08-11 11:22:42.588805
+2026-05-13 14:10:01 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 14:10:01 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 14:10:01 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 14:10:01 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 14:10:01 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 14:10:23 - office_assistant - INFO - ==================================================
+2026-05-13 14:10:23 - office_assistant - INFO - 办公助手启动
+2026-05-13 14:10:23 - office_assistant - INFO - ==================================================
+2026-05-13 14:10:23 - office_assistant - INFO - 许可证检查: 有效, 到期时间: 2026-08-11 11:22:42.588805
+2026-05-13 14:10:23 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 14:10:24 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 14:10:24 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 14:10:24 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 14:10:24 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 14:10:34 - office_assistant - INFO - 切换任务状态: 1 -> False
+2026-05-13 14:10:34 - office_assistant - INFO - 任务已取消调度: 1
+2026-05-13 14:10:35 - office_assistant - INFO - 切换任务状态: 1 -> True
+2026-05-13 14:10:35 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 14:10:36 - office_assistant - INFO - 切换任务状态: 1 -> False
+2026-05-13 14:10:36 - office_assistant - INFO - 任务已取消调度: 1
+2026-05-13 14:10:37 - office_assistant - INFO - 切换任务状态: 1 -> True
+2026-05-13 14:10:37 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 14:12:36 - office_assistant - INFO - ==================================================
+2026-05-13 14:12:36 - office_assistant - INFO - 办公助手启动
+2026-05-13 14:12:36 - office_assistant - INFO - ==================================================
+2026-05-13 14:12:36 - office_assistant - INFO - 许可证检查: 有效, 到期时间: 2026-08-11 11:22:42.588805
+2026-05-13 14:12:36 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 14:12:36 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 14:12:36 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 14:12:36 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 14:12:36 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 14:13:23 - office_assistant - INFO - ============================================================
+2026-05-13 14:13:23 - office_assistant - INFO - 开始执行任务: 百度搜索测试
+2026-05-13 14:13:23 - office_assistant - INFO - ============================================================
+2026-05-13 14:13:23 - office_assistant - INFO - 更新任务状态: 1 -> running
+2026-05-13 14:13:23 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 14:13:23 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 14:13:26 - office_assistant - INFO - 浏览器初始化成功
+2026-05-13 14:13:26 - office_assistant - INFO - ==================================================
+2026-05-13 14:13:26 - office_assistant - INFO - 开始执行百度测试: 办公助手
+2026-05-13 14:13:26 - office_assistant - INFO - ==================================================
+2026-05-13 14:13:26 - office_assistant - INFO - [1/6] 正在打开百度首页...
+2026-05-13 14:13:30 - office_assistant - INFO - [OK] 百度首页打开成功
+2026-05-13 14:13:30 - office_assistant - INFO - [2/6] 正在输入搜索词: 办公助手
+2026-05-13 14:13:33 - office_assistant - INFO - [OK] 搜索词输入成功
+2026-05-13 14:13:33 - office_assistant - INFO - [3/6] 正在点击搜索按钮...
+2026-05-13 14:13:36 - office_assistant - INFO - [OK] 搜索按钮点击成功
+2026-05-13 14:13:36 - office_assistant - INFO - [4/6] 正在等待搜索结果...
+2026-05-13 14:13:39 - office_assistant - INFO - [OK] 搜索结果加载完成
+2026-05-13 14:13:39 - office_assistant - INFO - 找到 21 条搜索结果
+2026-05-13 14:13:39 - office_assistant - INFO -   [1] 腾讯QClaw-微信直联-免部署一键办公名企
+2026-05-13 14:13:39 - office_assistant - INFO -   [2] e-office-中小企业协同办公软件,中小企业优选品牌,安..
+2026-05-13 14:13:39 - office_assistant - INFO -   [3] WorkBuddy-腾讯版小龙虾,免部署安装即用,一分钟直连IM
+2026-05-13 14:13:39 - office_assistant - INFO - [5/6] 正在尝试切换到标签: 资讯
+2026-05-13 14:13:41 - office_assistant - INFO - [OK] 切换到 资讯 标签成功
+2026-05-13 14:13:41 - office_assistant - INFO - [6/6] 测试任务执行完成
+2026-05-13 14:13:41 - office_assistant - INFO - ==================================================
+2026-05-13 14:13:41 - office_assistant - INFO - 百度测试任务执行成功！
+2026-05-13 14:13:41 - office_assistant - INFO - ==================================================
+2026-05-13 14:13:41 - office_assistant - INFO - 更新任务状态: 1 -> success
+2026-05-13 14:13:41 - office_assistant - INFO - [OK] 任务执行成功: 百度搜索测试
+2026-05-13 14:13:41 - office_assistant - INFO - ============================================================
+2026-05-13 14:14:31 - office_assistant - INFO - 任务已取消调度: 1
+2026-05-13 14:14:31 - office_assistant - INFO - 删除任务成功: 1
+2026-05-13 15:31:06 - office_assistant - INFO - ==================================================
+2026-05-13 15:31:06 - office_assistant - INFO - 办公助手启动
+2026-05-13 15:31:06 - office_assistant - INFO - ==================================================
+2026-05-13 15:31:06 - office_assistant - INFO - 许可证检查: 有效, 到期时间: 2026-08-11 11:22:42.588805
+2026-05-13 15:31:06 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 15:31:06 - office_assistant - INFO - 首次启动，创建Demo任务
+2026-05-13 15:31:06 - office_assistant - INFO - 添加任务成功: 百度搜索测试
+2026-05-13 15:31:06 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 15:31:06 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 15:31:06 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 15:31:06 - office_assistant - INFO - 任务调度器启动成功
