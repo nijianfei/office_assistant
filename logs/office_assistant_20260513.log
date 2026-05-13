@@ -866,3 +866,256 @@ DrissionPage.errors.PageDisconnectedError:
 2026-05-13 15:31:06 - office_assistant - INFO - 发现 1 个已启用的任务
 2026-05-13 15:31:06 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
 2026-05-13 15:31:06 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 16:13:44 - office_assistant - ERROR - 保存许可证文件失败: Invalid key size (328) for AES.
+2026-05-13 16:13:44 - office_assistant - INFO - 创建试用许可证，到期时间: 2026-08-11 16:13:44.129405
+2026-05-13 16:17:34 - office_assistant - ERROR - 保存许可证文件失败: Invalid key size (264) for AES.
+2026-05-13 16:17:34 - office_assistant - INFO - 创建试用许可证，到期时间: 2026-08-11 16:17:34.410571
+2026-05-13 16:19:27 - office_assistant - INFO - 创建试用许可证，到期时间: 2026-08-11 16:19:27.311906
+2026-05-13 16:24:35 - office_assistant - INFO - ==================================================
+2026-05-13 16:24:35 - office_assistant - INFO - 办公助手启动
+2026-05-13 16:24:35 - office_assistant - INFO - ==================================================
+2026-05-13 16:24:35 - office_assistant - INFO - 许可证检查: 有效, 到期时间: 2026-08-11 16:19:27.311906
+2026-05-13 16:24:35 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 16:24:35 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 16:24:35 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 16:24:35 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 16:24:35 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 16:30:51 - office_assistant - INFO - 创建试用许可证，到期时间: 2026-08-11 16:30:51.552902
+2026-05-13 16:32:12 - office_assistant - INFO - ==================================================
+2026-05-13 16:32:12 - office_assistant - INFO - 办公助手启动
+2026-05-13 16:32:12 - office_assistant - INFO - ==================================================
+2026-05-13 16:32:12 - office_assistant - WARNING - 获取磁盘序列号失败: No module named 'win32api'
+2026-05-13 16:32:12 - office_assistant - ERROR - 许可证与当前机器不匹配！
+2026-05-13 16:32:12 - office_assistant - INFO - 创建试用许可证，到期时间: 2026-08-11 16:32:12.693985
+2026-05-13 16:32:12 - office_assistant - INFO - 许可证检查: 有效, 到期时间: 2026-08-11 16:32:12.693985
+2026-05-13 16:32:12 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 16:32:12 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 16:32:12 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 16:32:12 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 16:32:12 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 16:33:04 - office_assistant - INFO - ==================================================
+2026-05-13 16:33:04 - office_assistant - INFO - 办公助手启动
+2026-05-13 16:33:04 - office_assistant - INFO - ==================================================
+2026-05-13 16:33:06 - office_assistant - INFO - 创建试用许可证，到期时间: 2026-08-11 16:33:06.748463
+2026-05-13 16:33:06 - office_assistant - INFO - 许可证检查: 有效, 到期时间: 2026-08-11 16:33:06.748463
+2026-05-13 16:33:06 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 16:33:06 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 16:33:06 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 16:33:06 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 16:33:06 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 16:38:07 - office_assistant - INFO - ============================================================
+2026-05-13 16:38:07 - office_assistant - INFO - 开始执行任务: 百度搜索测试
+2026-05-13 16:38:07 - office_assistant - INFO - ============================================================
+2026-05-13 16:38:07 - office_assistant - INFO - 更新任务状态: 1 -> running
+2026-05-13 16:38:07 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 16:38:07 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 16:38:11 - office_assistant - INFO - 浏览器初始化成功
+2026-05-13 16:38:11 - office_assistant - INFO - ==================================================
+2026-05-13 16:38:11 - office_assistant - INFO - 开始执行百度测试: 办公助手
+2026-05-13 16:38:11 - office_assistant - INFO - ==================================================
+2026-05-13 16:38:11 - office_assistant - INFO - [1/6] 正在打开百度首页...
+2026-05-13 16:38:16 - office_assistant - INFO - [OK] 百度首页打开成功
+2026-05-13 16:38:16 - office_assistant - INFO - [2/6] 正在输入搜索词: 办公助手
+2026-05-13 16:38:19 - office_assistant - INFO - [OK] 搜索词输入成功
+2026-05-13 16:38:19 - office_assistant - INFO - [3/6] 正在点击搜索按钮...
+2026-05-13 16:38:24 - office_assistant - INFO - [OK] 搜索按钮点击成功
+2026-05-13 16:38:24 - office_assistant - INFO - [4/6] 正在等待搜索结果...
+2026-05-13 16:38:26 - office_assistant - INFO - [OK] 搜索结果加载完成
+2026-05-13 16:38:26 - office_assistant - WARNING - 等待搜索结果失败: 
+与页面的连接已断开。
+版本: 4.1.1.2
+Traceback (most recent call last):
+  File "c:\Users\njf\Documents\trae_projects\TEST_PROJECT\office_assistant_new\src\business\baidu_test.py", line 129, in execute
+    results = tab.eles("tag:h3")
+  File "C:\Users\njf\AppData\Local\Programs\Python\Python313\Lib\site-packages\DrissionPage\_pages\mix_tab.py", line 113, in eles
+    return super(SessionPage, self).eles(locator, timeout=timeout) if self._d_mode else super().eles(locator)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njf\AppData\Local\Programs\Python\Python313\Lib\site-packages\DrissionPage\_pages\chromium_base.py", line 433, in eles
+    return self._ele(locator, timeout=timeout, index=None)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njf\AppData\Local\Programs\Python\Python313\Lib\site-packages\DrissionPage\_base\base.py", line 354, in _ele
+    r = self._find_elements(locator, timeout=timeout, index=index, raise_err=raise_err)
+  File "C:\Users\njf\AppData\Local\Programs\Python\Python313\Lib\site-packages\DrissionPage\_pages\mix_tab.py", line 192, in _find_elements
+    return super(SessionPage, self)._find_elements(locator, timeout=timeout, index=index, relative=relative) \
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njf\AppData\Local\Programs\Python\Python313\Lib\site-packages\DrissionPage\_pages\chromium_base.py", line 503, in _find_elements
+    raise PageDisconnectedError
+DrissionPage.errors.PageDisconnectedError: 
+与页面的连接已断开。
+版本: 4.1.1.2
+2026-05-13 16:38:26 - office_assistant - INFO - [5/6] 正在尝试切换到标签: 资讯
+2026-05-13 16:38:26 - office_assistant - WARNING - 切换标签失败: 
+与页面的连接已断开。
+版本: 4.1.1.2
+Traceback (most recent call last):
+  File "c:\Users\njf\Documents\trae_projects\TEST_PROJECT\office_assistant_new\src\business\baidu_test.py", line 148, in execute
+    tab_ele = tab.ele(f"text:{tab_type}", timeout=10)
+  File "C:\Users\njf\AppData\Local\Programs\Python\Python313\Lib\site-packages\DrissionPage\_pages\mix_tab.py", line 109, in ele
+    return (super(SessionPage, self).ele(locator, index=index, timeout=timeout)
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njf\AppData\Local\Programs\Python\Python313\Lib\site-packages\DrissionPage\_pages\chromium_base.py", line 430, in ele
+    return self._ele(locator, timeout=timeout, index=index, method='ele()')
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njf\AppData\Local\Programs\Python\Python313\Lib\site-packages\DrissionPage\_base\base.py", line 354, in _ele
+    r = self._find_elements(locator, timeout=timeout, index=index, raise_err=raise_err)
+  File "C:\Users\njf\AppData\Local\Programs\Python\Python313\Lib\site-packages\DrissionPage\_pages\mix_tab.py", line 192, in _find_elements
+    return super(SessionPage, self)._find_elements(locator, timeout=timeout, index=index, relative=relative) \
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njf\AppData\Local\Programs\Python\Python313\Lib\site-packages\DrissionPage\_pages\chromium_base.py", line 503, in _find_elements
+    raise PageDisconnectedError
+DrissionPage.errors.PageDisconnectedError: 
+与页面的连接已断开。
+版本: 4.1.1.2
+2026-05-13 16:38:26 - office_assistant - INFO - [6/6] 测试任务执行完成
+2026-05-13 16:38:26 - office_assistant - INFO - ==================================================
+2026-05-13 16:38:26 - office_assistant - INFO - 百度测试任务执行成功！
+2026-05-13 16:38:26 - office_assistant - INFO - ==================================================
+2026-05-13 16:38:26 - office_assistant - INFO - 更新任务状态: 1 -> success
+2026-05-13 16:38:26 - office_assistant - INFO - [OK] 任务执行成功: 百度搜索测试
+2026-05-13 16:38:26 - office_assistant - INFO - ============================================================
+2026-05-13 16:39:16 - office_assistant - INFO - ==================================================
+2026-05-13 16:39:16 - office_assistant - INFO - 办公助手启动
+2026-05-13 16:39:16 - office_assistant - INFO - ==================================================
+2026-05-13 16:39:16 - office_assistant - INFO - 许可证检查: 有效, 到期时间: 2026-08-11 16:33:06.748463
+2026-05-13 16:39:16 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 16:39:16 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 16:39:16 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 16:39:16 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 16:39:16 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 16:39:26 - office_assistant - INFO - ============================================================
+2026-05-13 16:39:26 - office_assistant - INFO - 开始执行任务: 百度搜索测试
+2026-05-13 16:39:26 - office_assistant - INFO - ============================================================
+2026-05-13 16:39:26 - office_assistant - INFO - 更新任务状态: 1 -> running
+2026-05-13 16:39:26 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 16:39:26 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-13 16:39:27 - office_assistant - INFO - 浏览器初始化成功
+2026-05-13 16:39:27 - office_assistant - INFO - ==================================================
+2026-05-13 16:39:27 - office_assistant - INFO - 开始执行百度测试: 办公助手
+2026-05-13 16:39:27 - office_assistant - INFO - ==================================================
+2026-05-13 16:39:27 - office_assistant - INFO - [1/6] 正在打开百度首页...
+2026-05-13 16:39:30 - office_assistant - INFO - [OK] 百度首页打开成功
+2026-05-13 16:39:30 - office_assistant - INFO - [2/6] 正在输入搜索词: 办公助手
+2026-05-13 16:39:33 - office_assistant - INFO - [OK] 搜索词输入成功
+2026-05-13 16:39:33 - office_assistant - INFO - [3/6] 正在点击搜索按钮...
+2026-05-13 16:39:37 - office_assistant - INFO - [OK] 搜索按钮点击成功
+2026-05-13 16:39:37 - office_assistant - INFO - [4/6] 正在等待搜索结果...
+2026-05-13 16:39:39 - office_assistant - INFO - [OK] 搜索结果加载完成
+2026-05-13 16:39:39 - office_assistant - INFO - 找到 21 条搜索结果
+2026-05-13 16:39:39 - office_assistant - INFO -   [1] 泛微OA办公平台,上市公司,8万多家大中型客户
+2026-05-13 16:39:39 - office_assistant - INFO -   [2] 腾讯QClaw,你的专属龙虾助手,三步搞定办公自动化!名企
+2026-05-13 16:39:39 - office_assistant - INFO -   [3] WorkBuddy-腾讯版小龙虾,免部署安装即用,一分钟直连IM
+2026-05-13 16:39:39 - office_assistant - INFO - [5/6] 正在尝试切换到标签: 资讯
+2026-05-13 16:39:41 - office_assistant - INFO - [OK] 切换到 资讯 标签成功
+2026-05-13 16:39:41 - office_assistant - INFO - [6/6] 测试任务执行完成
+2026-05-13 16:39:41 - office_assistant - INFO - ==================================================
+2026-05-13 16:39:41 - office_assistant - INFO - 百度测试任务执行成功！
+2026-05-13 16:39:41 - office_assistant - INFO - ==================================================
+2026-05-13 16:39:41 - office_assistant - INFO - 更新任务状态: 1 -> success
+2026-05-13 16:39:41 - office_assistant - INFO - [OK] 任务执行成功: 百度搜索测试
+2026-05-13 16:39:41 - office_assistant - INFO - ============================================================
+2026-05-13 16:42:55 - office_assistant - INFO - ==================================================
+2026-05-13 16:42:55 - office_assistant - INFO - 办公助手启动
+2026-05-13 16:42:55 - office_assistant - INFO - ==================================================
+2026-05-13 16:42:55 - office_assistant - INFO - 许可证检查: 有效, 到期时间: 2027-05-13 16:42:41.632630
+2026-05-13 16:42:55 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 16:42:55 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 16:42:55 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 16:42:55 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 16:42:55 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 16:44:02 - office_assistant - INFO - ==================================================
+2026-05-13 16:44:02 - office_assistant - INFO - 办公助手启动
+2026-05-13 16:44:02 - office_assistant - INFO - ==================================================
+2026-05-13 16:44:02 - office_assistant - INFO - 许可证检查: 有效, 到期时间: 2027-05-13 16:42:41.632630
+2026-05-13 16:44:02 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 16:44:02 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 16:44:02 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 16:44:02 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 16:44:02 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 16:44:16 - office_assistant - INFO - ==================================================
+2026-05-13 16:44:16 - office_assistant - INFO - 办公助手启动
+2026-05-13 16:44:16 - office_assistant - INFO - ==================================================
+2026-05-13 16:44:17 - office_assistant - INFO - 创建试用许可证，到期时间: 2026-08-11 16:44:17.312340
+2026-05-13 16:44:17 - office_assistant - INFO - 许可证检查: 有效, 到期时间: 2026-08-11 16:44:17.312340
+2026-05-13 16:44:17 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 16:44:17 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 16:44:17 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 16:44:17 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 16:44:17 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 16:45:33 - office_assistant - INFO - ==================================================
+2026-05-13 16:45:33 - office_assistant - INFO - 办公助手启动
+2026-05-13 16:45:33 - office_assistant - INFO - ==================================================
+2026-05-13 16:45:34 - office_assistant - ERROR - 解密许可证失败: Invalid base64-encoded string: number of data characters (429) cannot be 1 more than a multiple of 4
+2026-05-13 16:45:34 - office_assistant - INFO - 创建试用许可证，到期时间: 2026-08-11 16:45:34.153270
+2026-05-13 16:45:34 - office_assistant - INFO - 许可证检查: 有效, 到期时间: 2026-08-11 16:45:34.153270
+2026-05-13 16:45:34 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 16:45:34 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 16:45:34 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 16:45:34 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 16:45:34 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 16:52:32 - office_assistant - INFO - ==================================================
+2026-05-13 16:52:32 - office_assistant - INFO - 办公助手启动
+2026-05-13 16:52:32 - office_assistant - INFO - ==================================================
+2026-05-13 16:52:32 - office_assistant - INFO - 许可证检查: 有效, 到期时间: 2027-05-13 16:52:21.150916
+2026-05-13 16:52:32 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 16:52:32 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 16:52:32 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 16:52:32 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 16:52:32 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 16:52:52 - office_assistant - INFO - ==================================================
+2026-05-13 16:52:52 - office_assistant - INFO - 办公助手启动
+2026-05-13 16:52:52 - office_assistant - INFO - ==================================================
+2026-05-13 16:52:52 - office_assistant - ERROR - 解密许可证失败: Invalid base64-encoded string: number of data characters (493) cannot be 1 more than a multiple of 4
+2026-05-13 16:52:52 - office_assistant - ERROR - 许可证解密失败，文件可能已损坏或被篡改！
+2026-05-13 16:52:52 - office_assistant - ERROR - 许可证无效
+2026-05-13 16:52:52 - office_assistant - WARNING - 许可证无效或已过期
+2026-05-13 16:52:52 - office_assistant - ERROR - 解密许可证失败: Invalid base64-encoded string: number of data characters (493) cannot be 1 more than a multiple of 4
+2026-05-13 16:52:52 - office_assistant - ERROR - 许可证解密失败，文件可能已损坏或被篡改！
+2026-05-13 16:57:05 - office_assistant - INFO - ==================================================
+2026-05-13 16:57:05 - office_assistant - INFO - 办公助手启动
+2026-05-13 16:57:05 - office_assistant - INFO - ==================================================
+2026-05-13 16:57:05 - office_assistant - INFO - 许可证文件不存在，需要激活
+2026-05-13 16:57:05 - office_assistant - ERROR - 许可证无效
+2026-05-13 16:57:05 - office_assistant - WARNING - 许可证无效或已过期
+2026-05-13 16:57:05 - office_assistant - INFO - 许可证文件不存在，需要激活
+2026-05-13 16:57:47 - office_assistant - INFO - ==================================================
+2026-05-13 16:57:47 - office_assistant - INFO - 办公助手启动
+2026-05-13 16:57:47 - office_assistant - INFO - ==================================================
+2026-05-13 16:57:47 - office_assistant - ERROR - 解密许可证失败: Incorrect padding
+2026-05-13 16:57:47 - office_assistant - ERROR - 许可证解密失败，文件可能已损坏或被篡改！
+2026-05-13 16:57:47 - office_assistant - ERROR - 许可证无效
+2026-05-13 16:57:47 - office_assistant - WARNING - 许可证无效或已过期
+2026-05-13 16:57:47 - office_assistant - ERROR - 解密许可证失败: Incorrect padding
+2026-05-13 16:57:47 - office_assistant - ERROR - 许可证解密失败，文件可能已损坏或被篡改！
+2026-05-13 16:58:25 - office_assistant - INFO - ==================================================
+2026-05-13 16:58:25 - office_assistant - INFO - 办公助手启动
+2026-05-13 16:58:25 - office_assistant - INFO - ==================================================
+2026-05-13 16:58:25 - office_assistant - INFO - 许可证检查: 有效, 到期时间: 2027-05-13 16:58:12.051565
+2026-05-13 16:58:25 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 16:58:25 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 16:58:25 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 16:58:25 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 16:58:25 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 16:59:12 - office_assistant - INFO - ==================================================
+2026-05-13 16:59:12 - office_assistant - INFO - 办公助手启动
+2026-05-13 16:59:12 - office_assistant - INFO - ==================================================
+2026-05-13 16:59:13 - office_assistant - INFO - 许可证检查: 有效, 到期时间: 2027-05-13 16:58:12.051565
+2026-05-13 16:59:13 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 16:59:13 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 16:59:13 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 16:59:13 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 16:59:13 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 16:59:39 - office_assistant - INFO - ==================================================
+2026-05-13 16:59:39 - office_assistant - INFO - 办公助手启动
+2026-05-13 16:59:39 - office_assistant - INFO - ==================================================
+2026-05-13 16:59:40 - office_assistant - ERROR - 解密许可证失败: Signature did not match digest.
+2026-05-13 16:59:40 - office_assistant - ERROR - 许可证解密失败，文件可能已损坏或被篡改！
+2026-05-13 16:59:40 - office_assistant - ERROR - 许可证无效
+2026-05-13 16:59:40 - office_assistant - WARNING - 许可证无效或已过期
+2026-05-13 16:59:40 - office_assistant - ERROR - 解密许可证失败: Signature did not match digest.
+2026-05-13 16:59:40 - office_assistant - ERROR - 许可证解密失败，文件可能已损坏或被篡改！
+2026-05-13 16:59:48 - office_assistant - INFO - 许可证检查: 有效, 到期时间: 2027-05-13 16:58:12.051565
+2026-05-13 16:59:48 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 16:59:48 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 16:59:48 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 16:59:48 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 16:59:48 - office_assistant - INFO - 任务调度器启动成功
