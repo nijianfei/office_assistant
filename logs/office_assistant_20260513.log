@@ -1119,3 +1119,88 @@ DrissionPage.errors.PageDisconnectedError:
 2026-05-13 16:59:48 - office_assistant - INFO - 发现 1 个已启用的任务
 2026-05-13 16:59:48 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
 2026-05-13 16:59:48 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 17:08:10 - office_assistant - INFO - ==================================================
+2026-05-13 17:08:10 - office_assistant - INFO - 办公助手启动
+2026-05-13 17:08:10 - office_assistant - INFO - ==================================================
+2026-05-13 17:08:10 - office_assistant - INFO - 许可证检查: 有效, 到期时间: 2027-05-13 16:58:12.051565
+2026-05-13 17:08:10 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 17:08:10 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 17:08:10 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 17:08:10 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 17:08:10 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 17:09:11 - office_assistant - INFO - ==================================================
+2026-05-13 17:09:11 - office_assistant - INFO - 办公助手启动
+2026-05-13 17:09:11 - office_assistant - INFO - ==================================================
+2026-05-13 17:09:11 - office_assistant - INFO - 许可证检查: 有效, 到期时间: 2027-05-13 16:58:12.051565
+2026-05-13 17:09:11 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 17:09:11 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 17:09:11 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 17:09:11 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 17:09:11 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 17:18:13 - office_assistant - ERROR - 保存到 data/trial.dat 失败: name 'base64' is not defined
+2026-05-13 17:18:13 - office_assistant - ERROR - 保存到 C:\Users\njf/.office_assistant/trial.dat 失败: [WinError 5] 拒绝访问。: 'C:\\Users\\njf/.office_assistant'
+2026-05-13 17:18:13 - office_assistant - ERROR - 保存到 C:\Users\njf\AppData\Roaming\OfficeAssistant\trial.dat 失败: [WinError 5] 拒绝访问。: 'C:\\Users\\njf\\AppData\\Roaming\\OfficeAssistant'
+2026-05-13 17:18:13 - office_assistant - ERROR - 保存到 trial.dat 失败: [WinError 3] 系统找不到指定的路径。: ''
+2026-05-13 17:18:13 - office_assistant - INFO - 首次启动，创建试用数据: 2026-05-13 17:18:13.381273
+2026-05-13 17:18:13 - office_assistant - ERROR - 保存到 data/trial.dat 失败: name 'base64' is not defined
+2026-05-13 17:18:13 - office_assistant - ERROR - 保存到 C:\Users\njf/.office_assistant/trial.dat 失败: [WinError 5] 拒绝访问。: 'C:\\Users\\njf/.office_assistant'
+2026-05-13 17:18:13 - office_assistant - ERROR - 保存到 C:\Users\njf\AppData\Roaming\OfficeAssistant\trial.dat 失败: [WinError 5] 拒绝访问。: 'C:\\Users\\njf\\AppData\\Roaming\\OfficeAssistant'
+2026-05-13 17:18:13 - office_assistant - ERROR - 保存到 trial.dat 失败: [WinError 3] 系统找不到指定的路径。: ''
+2026-05-13 17:18:31 - office_assistant - ERROR - 保存到 data/trial.dat 失败: name 'base64' is not defined
+2026-05-13 17:18:31 - office_assistant - ERROR - 保存到 C:\Users\njf/.office_assistant/trial.dat 失败: name 'base64' is not defined
+2026-05-13 17:18:31 - office_assistant - ERROR - 保存到 C:\Users\njf\AppData\Roaming\OfficeAssistant\trial.dat 失败: name 'base64' is not defined
+2026-05-13 17:18:31 - office_assistant - ERROR - 保存到 trial.dat 失败: [WinError 3] 系统找不到指定的路径。: ''
+2026-05-13 17:18:31 - office_assistant - INFO - 首次启动，创建试用数据: 2026-05-13 17:18:31.549275
+2026-05-13 17:18:31 - office_assistant - ERROR - 保存到 data/trial.dat 失败: name 'base64' is not defined
+2026-05-13 17:18:31 - office_assistant - ERROR - 保存到 C:\Users\njf/.office_assistant/trial.dat 失败: name 'base64' is not defined
+2026-05-13 17:18:31 - office_assistant - ERROR - 保存到 C:\Users\njf\AppData\Roaming\OfficeAssistant\trial.dat 失败: name 'base64' is not defined
+2026-05-13 17:18:31 - office_assistant - ERROR - 保存到 trial.dat 失败: [WinError 3] 系统找不到指定的路径。: ''
+2026-05-13 17:19:01 - office_assistant - ERROR - 保存到 C:\Users\njf/.office_assistant/trial.dat 失败: [Errno 13] Permission denied: 'C:\\Users\\njf/.office_assistant/trial.dat'
+2026-05-13 17:19:01 - office_assistant - ERROR - 保存到 C:\Users\njf\AppData\Roaming\OfficeAssistant\trial.dat 失败: [Errno 13] Permission denied: 'C:\\Users\\njf\\AppData\\Roaming\\OfficeAssistant\\trial.dat'
+2026-05-13 17:19:01 - office_assistant - INFO - 首次启动，创建试用数据: 2026-05-13 17:19:01.131865
+2026-05-13 17:19:01 - office_assistant - ERROR - 保存到 C:\Users\njf/.office_assistant/trial.dat 失败: [Errno 13] Permission denied: 'C:\\Users\\njf/.office_assistant/trial.dat'
+2026-05-13 17:19:01 - office_assistant - ERROR - 保存到 C:\Users\njf\AppData\Roaming\OfficeAssistant\trial.dat 失败: [Errno 13] Permission denied: 'C:\\Users\\njf\\AppData\\Roaming\\OfficeAssistant\\trial.dat'
+2026-05-13 17:19:26 - office_assistant - INFO - ==================================================
+2026-05-13 17:19:26 - office_assistant - INFO - 办公助手启动
+2026-05-13 17:19:26 - office_assistant - INFO - ==================================================
+2026-05-13 17:19:26 - office_assistant - ERROR - 保存到 C:\Users\njf/.office_assistant/trial.dat 失败: [Errno 13] Permission denied: 'C:\\Users\\njf/.office_assistant/trial.dat'
+2026-05-13 17:19:26 - office_assistant - ERROR - 保存到 C:\Users\njf\AppData\Roaming\OfficeAssistant\trial.dat 失败: [Errno 13] Permission denied: 'C:\\Users\\njf\\AppData\\Roaming\\OfficeAssistant\\trial.dat'
+2026-05-13 17:19:26 - office_assistant - INFO - 许可证检查: 有效 (正式版), 到期时间: 2027-05-13 16:58:12.051565
+2026-05-13 17:19:26 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 17:19:26 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 17:19:26 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 17:19:26 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 17:19:26 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 17:19:27 - office_assistant - ERROR - 保存到 C:\Users\njf/.office_assistant/trial.dat 失败: [Errno 13] Permission denied: 'C:\\Users\\njf/.office_assistant/trial.dat'
+2026-05-13 17:19:27 - office_assistant - ERROR - 保存到 C:\Users\njf\AppData\Roaming\OfficeAssistant\trial.dat 失败: [Errno 13] Permission denied: 'C:\\Users\\njf\\AppData\\Roaming\\OfficeAssistant\\trial.dat'
+2026-05-13 17:27:37 - office_assistant - INFO - ==================================================
+2026-05-13 17:27:37 - office_assistant - INFO - 办公助手启动
+2026-05-13 17:27:37 - office_assistant - INFO - ==================================================
+2026-05-13 17:27:38 - office_assistant - ERROR - 保存到 C:\Users\njf/.office_assistant/trial.dat 失败: [Errno 13] Permission denied: 'C:\\Users\\njf/.office_assistant/trial.dat'
+2026-05-13 17:27:38 - office_assistant - ERROR - 保存到 C:\Users\njf\AppData\Roaming\OfficeAssistant\trial.dat 失败: [Errno 13] Permission denied: 'C:\\Users\\njf\\AppData\\Roaming\\OfficeAssistant\\trial.dat'
+2026-05-13 17:27:38 - office_assistant - INFO - 许可证检查: 有效 (正式版), 到期时间: 2027-05-13 16:58:12.051565
+2026-05-13 17:27:38 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 17:27:38 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 17:27:38 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 17:27:38 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 17:27:38 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 17:27:38 - office_assistant - ERROR - 保存到 C:\Users\njf/.office_assistant/trial.dat 失败: [Errno 13] Permission denied: 'C:\\Users\\njf/.office_assistant/trial.dat'
+2026-05-13 17:27:38 - office_assistant - ERROR - 保存到 C:\Users\njf\AppData\Roaming\OfficeAssistant\trial.dat 失败: [Errno 13] Permission denied: 'C:\\Users\\njf\\AppData\\Roaming\\OfficeAssistant\\trial.dat'
+2026-05-13 17:28:32 - office_assistant - INFO - ==================================================
+2026-05-13 17:28:32 - office_assistant - INFO - 办公助手启动
+2026-05-13 17:28:32 - office_assistant - INFO - ==================================================
+2026-05-13 17:28:33 - office_assistant - INFO - 许可证检查: 有效 (正式版), 到期时间: 2027-05-13 16:58:12.051565
+2026-05-13 17:28:33 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 17:28:33 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 17:28:33 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 17:28:33 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 17:28:33 - office_assistant - INFO - 任务调度器启动成功
+2026-05-13 17:39:04 - office_assistant - INFO - ==================================================
+2026-05-13 17:39:04 - office_assistant - INFO - 办公助手启动
+2026-05-13 17:39:04 - office_assistant - INFO - ==================================================
+2026-05-13 17:39:04 - office_assistant - INFO - 许可证检查: 有效 (正式版), 到期时间: 2027-05-13 16:58:12.051565
+2026-05-13 17:39:04 - office_assistant - INFO - 数据库表初始化完成
+2026-05-13 17:39:04 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-13 17:39:04 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-13 17:39:04 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-13 17:39:04 - office_assistant - INFO - 任务调度器启动成功

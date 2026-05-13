@@ -18,6 +18,7 @@ from src.core.business_base import get_all_businesses
 from src.gui.account_window import AccountWindow
 from src.gui.styles import apply_stylesheet
 from src.utils.logger import logger
+from src.utils.version import get_full_version
 import os
 
 class MainWindow(QMainWindow):
@@ -61,6 +62,10 @@ class MainWindow(QMainWindow):
         top_layout.addWidget(self.account_btn)
         
         top_layout.addStretch()
+        
+        self.version_label = QLabel(f"版本: {get_full_version()}")
+        self.version_label.setStyleSheet("font-size: 12px; color: #666;")
+        top_layout.addWidget(self.version_label)
         
         self.license_label = QLabel()
         top_layout.addWidget(self.license_label)

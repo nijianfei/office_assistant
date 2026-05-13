@@ -47,7 +47,8 @@ def register_business(business_class):
     name = instance.get_name()
     
     if name in _business_registry:
-        print(f"警告: 业务 {name} 已存在，将被覆盖")
+        print(f"业务 {name} 已存在，跳过注册")
+        return
     
     _business_registry[name] = instance
     print(f"注册业务: {name} ({instance.get_display_name()})")
