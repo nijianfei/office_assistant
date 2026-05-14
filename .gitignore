@@ -1,0 +1,82 @@
+# Python 编译/缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Python 虚拟环境
+env/
+venv/
+ENV/
+.venv/
+
+# 编辑器/IDE 配置
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 打包/构建文件
+dist/
+build/
+*.egg-info/
+*.egg
+*.whl
+pip-wheel-metadata/
+.installed.cfg
+pyvenv.cfg
+*.spec
+
+# PyArmor 混淆输出
+dist-obfuscated/
+pyarmor_runtime_*/
+
+# 日志/临时文件
+*.log
+logs/*.log
+debug.log
+build_output.log
+pyarmor.bug.log
+
+# 数据库文件（可选，根据需求决定）
+# *.sql
+# *.sqlite
+# *.sqlite3
+# *.db
+
+# 数据文件（可选，根据需求决定）
+# *.csv
+# *.json
+# *.xlsx
+
+# 应用数据目录
+data/*.sqlite
+data/*.dat
+trial.dat
+
+# 配置文件（敏感信息）
+config/*.yaml
+config/*.yml
+config/*.json
+!.env.example
+
+# 环境变量/密钥（绝对不能提交）
+.env
+.env.*
+!.env.example
+secrets.json
+config.json
+license.dat
+
+# 测试/覆盖率文件
+htmlcov/
+.coverage
+.pytest_cache/
+.tox/
+.nox/
+
+# 版本信息（可选，如果需要动态生成）
+# version.json

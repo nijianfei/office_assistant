@@ -12,12 +12,15 @@ import base64
 import hashlib
 import platform
 import psutil
+import subprocess
 from datetime import datetime, timedelta
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 from cryptography.hazmat.backends import default_backend
 from cryptography.hazmat.primitives import padding
 from cryptography.hazmat.primitives import hashes, hmac
 from src.utils.logger import logger
+
+CREATE_NO_WINDOW = subprocess.CREATE_NO_WINDOW if hasattr(subprocess, 'CREATE_NO_WINDOW') else 0
 
 LICENSE_FILE = 'data/license.dat'  # 更改扩展名
 TRIAL_DAYS = 90
@@ -38,8 +41,7 @@ class HardwareFingerprint:
             if platform.system() == 'Windows':
                 return platform.processor()
             else:
-                import subprocess
-                return subprocess.check_output(['cat', '/proc/cpuinfo']).decode('utf-8')[:100]
+                return subprocess.check_output(['cat', '/proc/cpuinfo'], creationflags=CREATE_NO_WINDOW).decode('utf-8')[:100]
         except Exception as e:
             logger.warning(f"获取CPU信息失败: {e}")
             return "unknown_cpu"
@@ -63,9 +65,7 @@ class HardwareFingerprint:
         """获取磁盘序列号"""
         try:
             if platform.system() == 'Windows':
-                # 优先使用 wmic 命令，不需要额外依赖
-                import subprocess
-                result = subprocess.check_output(['wmic', 'logicaldisk', 'get', 'name,volumeSerialNumber'], text=True)
+                result = subprocess.check_output(['wmic', 'logicaldisk', 'get', 'name,volumeSerialNumber'], text=True, creationflags=CREATE_NO_WINDOW)
                 lines = result.strip().split('\n')
                 for line in lines[1:]:
                     parts = line.split()
@@ -78,8 +78,7 @@ class HardwareFingerprint:
                         return parts[1]
                 return "unknown_disk"
             else:
-                import subprocess
-                return subprocess.check_output(['blkid', '-s', 'UUID', '-o', 'value', '/dev/sda1']).decode('utf-8').strip()
+                return subprocess.check_output(['blkid', '-s', 'UUID', '-o', 'value', '/dev/sda1'], creationflags=CREATE_NO_WINDOW).decode('utf-8').strip()
         except Exception as e:
             logger.warning(f"获取磁盘序列号失败: {e}")
             return "unknown_disk"
@@ -89,8 +88,7 @@ class HardwareFingerprint:
         """获取BIOS UUID"""
         try:
             if platform.system() == 'Windows':
-                import subprocess
-                result = subprocess.check_output(['wmic', 'csproduct', 'get', 'UUID'], text=True)
+                result = subprocess.check_output(['wmic', 'csproduct', 'get', 'UUID'], text=True, creationflags=CREATE_NO_WINDOW)
                 lines = result.strip().split('\n')
                 if len(lines) > 1:
                     return lines[1].strip()
