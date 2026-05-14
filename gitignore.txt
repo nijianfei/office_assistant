@@ -1,0 +1,51 @@
+# Python 编译/缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# 编辑器/IDE 配置
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 打包/构建文件
+dist/
+build/
+*.egg-info/
+*.egg
+*.whl
+pip-wheel-metadata/
+.installed.cfg
+pyvenv.cfg
+
+# 日志/数据文件
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+*.csv
+*.json
+*.xlsx
+
+# 测试/覆盖率文件
+htmlcov/
+.coverage
+.pytest_cache/
+.tox/
+.nox/
+
+# 环境变量/密钥（绝对不能提交）
+.env
+.env.*
+!.env.example
+secrets.json
+config.json
