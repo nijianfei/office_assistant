@@ -13,6 +13,7 @@ from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 from cryptography.hazmat.backends import default_backend
 from cryptography.hazmat.primitives import padding
 from cryptography.hazmat.primitives import hashes, hmac
+from src.utils.logger import logger
 
 # 加密密钥（必须与许可证管理器中的密钥一致）
 ENCRYPTION_KEY = b'0123456789ABCDEF0123456789ABCDEF'  # 32 bytes for AES-256
@@ -111,7 +112,7 @@ class LicenseGenerator:
             return json.loads(json_data)
             
         except Exception as e:
-            print(f"验证失败: {e}")
+            logger.error(f"验证失败: {e}")
             return None
 
 

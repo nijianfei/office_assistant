@@ -6,7 +6,7 @@ a = Analysis(
     pathex=[],
     binaries=[],
     datas=[('src', 'src'), ('data', 'data')],
-    hiddenimports=['src.utils.license_manager', 'src.utils.trial_manager', 'src.utils.version', 'src.gui.main_window', 'src.gui.license_dialog', 'DrissionPage', 'psutil', 'cryptography', 'schedule', 'sqlalchemy', 'PyQt6'],
+    hiddenimports=['src.utils.license_manager', 'src.utils.trial_manager', 'src.utils.version', 'src.gui.main_window', 'src.gui.license_dialog', 'DrissionPage', 'psutil', 'cryptography', 'sqlalchemy', 'PyQt6', 'PyQt6.QtWidgets', 'PyQt6.QtCore', 'PyQt6.QtGui', 'src.business.baidu_test'],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
@@ -35,5 +35,4 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['app.ico'],
 )

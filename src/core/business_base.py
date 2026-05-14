@@ -5,12 +5,20 @@
 """
 
 import os
+import sys
 import importlib
 from abc import ABC, abstractmethod
 from typing import Dict, Any
+from src.utils.logger import logger
 
 # 业务注册表
 _business_registry = {}
+
+# 已知的业务模块列表（打包时需要预先定义）
+_KNOWN_BUSINESS_MODULES = [
+    'baidu_test',
+    # 添加其他业务模块...
+]
 
 class BaseBusiness(ABC):
     """业务基类 - 所有业务逻辑必须继承此类"""
@@ -47,11 +55,16 @@ def register_business(business_class):
     name = instance.get_name()
     
     if name in _business_registry:
-        print(f"业务 {name} 已存在，跳过注册")
+        logger.debug(f"业务 {name} 已存在，跳过注册")
         return
     
     _business_registry[name] = instance
-    print(f"注册业务: {name} ({instance.get_display_name()})")
+    logger.info(f"注册业务: {name} ({instance.get_display_name()})")
+    return business_class
+
+def business(cls):
+    """业务类装饰器 - 简化业务注册"""
+    return register_business(cls)
 
 def get_business(name: str):
     """获取业务实例"""
@@ -61,31 +74,51 @@ def get_all_businesses():
     """获取所有已注册的业务"""
     return list(_business_registry.values())
 
-def discover_and_register_businesses(business_dir='src/business'):
-    """自动发现并注册业务"""
-    print("开始自动发现业务逻辑...")
+def is_frozen():
+    """检查是否是打包后的环境"""
+    return getattr(sys, 'frozen', False) and hasattr(sys, '_MEIPASS')
+
+def discover_and_register_businesses():
+    """自动发现并注册业务
     
-    if not os.path.exists(business_dir):
-        print(f"业务目录不存在: {business_dir}")
-        return
+    开发阶段：扫描 src/business 目录
+    打包后：直接导入已知的业务模块
     
-    # 遍历业务目录
-    for filename in os.listdir(business_dir):
-        if filename.startswith('_') or not filename.endswith('.py'):
-            continue
+    注意：业务模块需要在模块级别使用 @business 装饰器自动注册
+    """
+    logger.info("开始自动发现业务逻辑...")
+    
+    if is_frozen():
+        # 打包后：直接导入已知的业务模块（依赖模块内部自动注册）
+        logger.info("检测到打包环境，使用预设业务列表")
+        for module_name in _KNOWN_BUSINESS_MODULES:
+            try:
+                # 直接导入模块，业务类会通过装饰器自动注册
+                importlib.import_module(f'src.business.{module_name}')
+                logger.debug(f"导入业务模块: {module_name}")
+            except Exception as e:
+                logger.error(f"加载业务模块失败 {module_name}: {e}")
+    else:
+        # 开发阶段：扫描业务目录
+        business_dir = 'src/business'
+        logger.debug(f"业务目录: {business_dir}")
         
-        module_name = filename[:-3]
+        if not os.path.exists(business_dir):
+            logger.warning(f"业务目录不存在: {business_dir}")
+            return
         
-        try:
-            module = importlib.import_module(f'src.business.{module_name}')
+        # 遍历业务目录
+        for filename in os.listdir(business_dir):
+            if filename.startswith('_') or not filename.endswith('.py'):
+                continue
             
-            # 查找所有继承自 BaseBusiness 的类
-            for name in dir(module):
-                obj = getattr(module, name)
-                if isinstance(obj, type) and issubclass(obj, BaseBusiness) and obj != BaseBusiness:
-                    register_business(obj)
-                    
-        except Exception as e:
-            print(f"加载业务模块失败 {module_name}: {e}")
+            module_name = filename[:-3]
+            
+            try:
+                # 直接导入模块，业务类会通过装饰器自动注册
+                importlib.import_module(f'src.business.{module_name}')
+                logger.debug(f"导入业务模块: {module_name}")
+            except Exception as e:
+                logger.error(f"加载业务模块失败 {module_name}: {e}")
     
-    print(f"业务发现完成，共注册 {len(_business_registry)} 个业务")
+    logger.info(f"业务发现完成，共注册 {len(_business_registry)} 个业务")

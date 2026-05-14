@@ -1,0 +1,53 @@
+2026-05-14 10:10:32 - office_assistant - INFO - 创建版本文件: version.json
+2026-05-14 10:10:32 - office_assistant - INFO - ==================================================
+2026-05-14 10:10:32 - office_assistant - INFO - 办公助手启动
+2026-05-14 10:10:32 - office_assistant - INFO - ==================================================
+2026-05-14 10:10:34 - office_assistant - INFO - 许可证文件不存在，需要激活
+2026-05-14 10:10:34 - office_assistant - ERROR - 许可证无效
+2026-05-14 10:10:34 - office_assistant - WARNING - 许可证无效，检查试用状态
+2026-05-14 10:10:34 - office_assistant - INFO - 试用检查: 有效, 剩余 89 天 / 720.0 小时
+2026-05-14 10:10:34 - office_assistant - INFO - 开始自动发现业务逻辑...
+2026-05-14 10:10:34 - office_assistant - INFO - 检测到打包环境，使用预设业务列表
+2026-05-14 10:10:34 - office_assistant - INFO - 注册业务: baidu_test (百度测试)
+2026-05-14 10:10:34 - office_assistant - INFO - 业务发现完成，共注册 1 个业务
+2026-05-14 10:10:34 - office_assistant - INFO - 数据库表初始化完成
+2026-05-14 10:10:34 - office_assistant - INFO - 首次启动，创建Demo任务
+2026-05-14 10:10:34 - office_assistant - INFO - 添加任务成功: 百度搜索测试
+2026-05-14 10:10:34 - office_assistant - INFO - 正在启动任务调度器...
+2026-05-14 10:10:34 - office_assistant - INFO - 开始自动发现业务逻辑...
+2026-05-14 10:10:34 - office_assistant - INFO - 检测到打包环境，使用预设业务列表
+2026-05-14 10:10:34 - office_assistant - INFO - 业务发现完成，共注册 1 个业务
+2026-05-14 10:10:34 - office_assistant - INFO - 发现 1 个已启用的任务
+2026-05-14 10:10:34 - office_assistant - INFO - 任务已调度: 百度搜索测试 (interval)
+2026-05-14 10:10:34 - office_assistant - INFO - 任务调度器启动成功
+2026-05-14 10:10:38 - office_assistant - INFO - ============================================================
+2026-05-14 10:10:38 - office_assistant - INFO - 开始执行任务: 百度搜索测试
+2026-05-14 10:10:38 - office_assistant - INFO - ============================================================
+2026-05-14 10:10:38 - office_assistant - INFO - 更新任务状态: 1 -> running
+2026-05-14 10:10:38 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-14 10:10:38 - office_assistant - INFO - 正在初始化浏览器...
+2026-05-14 10:10:40 - office_assistant - INFO - 浏览器初始化成功
+2026-05-14 10:10:40 - office_assistant - INFO - ==================================================
+2026-05-14 10:10:40 - office_assistant - INFO - 开始执行百度测试: 办公助手
+2026-05-14 10:10:40 - office_assistant - INFO - ==================================================
+2026-05-14 10:10:40 - office_assistant - INFO - [1/6] 正在打开百度首页...
+2026-05-14 10:10:42 - office_assistant - INFO - [OK] 百度首页打开成功
+2026-05-14 10:10:42 - office_assistant - INFO - [2/6] 正在输入搜索词: 办公助手
+2026-05-14 10:10:46 - office_assistant - INFO - [OK] 搜索词输入成功
+2026-05-14 10:10:46 - office_assistant - INFO - [3/6] 正在点击搜索按钮...
+2026-05-14 10:10:49 - office_assistant - INFO - [OK] 搜索按钮点击成功
+2026-05-14 10:10:49 - office_assistant - INFO - [4/6] 正在等待搜索结果...
+2026-05-14 10:10:51 - office_assistant - INFO - [OK] 搜索结果加载完成
+2026-05-14 10:10:51 - office_assistant - INFO - 找到 23 条搜索结果
+2026-05-14 10:10:51 - office_assistant - INFO -   [1] 企业网络办公软件-企业管理系统
+2026-05-14 10:10:51 - office_assistant - INFO -   [2] 大家还在讨论这些热点问题
+2026-05-14 10:10:51 - office_assistant - INFO -   [3] 办公助手
+2026-05-14 10:10:51 - office_assistant - INFO - [5/6] 正在尝试切换到标签: 资讯
+2026-05-14 10:10:53 - office_assistant - INFO - [OK] 切换到 资讯 标签成功
+2026-05-14 10:10:53 - office_assistant - INFO - [6/6] 测试任务执行完成
+2026-05-14 10:10:53 - office_assistant - INFO - ==================================================
+2026-05-14 10:10:53 - office_assistant - INFO - 百度测试任务执行成功！
+2026-05-14 10:10:53 - office_assistant - INFO - ==================================================
+2026-05-14 10:10:53 - office_assistant - INFO - 更新任务状态: 1 -> success
+2026-05-14 10:10:53 - office_assistant - INFO - [OK] 任务执行成功: 百度搜索测试
+2026-05-14 10:10:53 - office_assistant - INFO - ============================================================

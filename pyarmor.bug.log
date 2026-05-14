@@ -1,0 +1,40 @@
+[BUG]: [WinError 5] ¾Ü¾ø·ÃÎÊ¡£: 'C:\\Users\\njf\\.pyarmor'
+
+## Command Line
+C:\Users\njf\AppData\Local\Programs\Python\Python311\Scripts\pyarmor gen --output C:\Users\njf\Documents\trae_projects\TEST_PROJECT\office_assistant_new\dist-obfuscated --recursive src main.py
+
+## Environments
+Python 3.11.9
+Pyarmor 9.2.4 (trial), 000000, non-profits
+Platform windows.x86_64
+Native windows.amd64
+Home C:\Users\njf\.pyarmor
+
+## Traceback
+Traceback (most recent call last):
+  File "C:\Users\njf\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyarmor\cli\__main__.py", line 804, in main
+    main_entry(sys.argv[1:])
+  File "C:\Users\njf\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyarmor\cli\__main__.py", line 789, in main_entry
+    return args.func(ctx, args)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njf\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyarmor\cli\__main__.py", line 248, in cmd_gen
+    builder.process(options)
+  File "C:\Users\njf\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyarmor\cli\generate.py", line 182, in process
+    self.ctx.runtime_key = self.generate_runtime_key()
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njf\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyarmor\cli\generate.py", line 96, in generate_runtime_key
+    return Pytransform3.generate_runtime_key(self.ctx, outer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njf\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyarmor\cli\core\__init__.py", line 105, in generate_runtime_key
+    return m.generate_runtime_key(ctx, outer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<maker>", line 738, in generate_runtime_key
+  File "<maker>", line 263, in build
+  File "C:\Users\njf\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyarmor\cli\context.py", line 362, in private_capsule
+    self._make_public_capsule(filename)
+  File "C:\Users\njf\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyarmor\cli\context.py", line 353, in _make_public_capsule
+    os.makedirs(os.path.dirname(filename), exist_ok=True)
+  File "<frozen os>", line 225, in makedirs
+PermissionError: [WinError 5] ¾Ü¾ø·ÃÎÊ¡£: 'C:\\Users\\njf\\.pyarmor'
+
+

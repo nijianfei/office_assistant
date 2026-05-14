@@ -6,9 +6,10 @@
 """
 
 from typing import Dict, Any
-from src.core.business_base import BaseBusiness
+from src.core.business_base import BaseBusiness, business
 from src.utils.logger import logger
 
+@business
 class BaiduTestBusiness(BaseBusiness):
     """百度测试业务"""
 

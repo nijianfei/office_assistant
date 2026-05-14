@@ -7,6 +7,7 @@
 
 import os
 import json
+from src.utils.logger import logger
 
 # 版本号定义
 VERSION_FILE = 'version.json'
@@ -28,7 +29,7 @@ def _load_version():
             with open(VERSION_FILE, 'r', encoding='utf-8') as f:
                 return json.load(f)
         except Exception as e:
-            print(f"加载版本文件失败: {e}")
+            logger.error(f"加载版本文件失败: {e}")
             return DEFAULT_VERSION.copy()
     return DEFAULT_VERSION.copy()
 
@@ -40,7 +41,7 @@ def _save_version(version_data):
             json.dump(version_data, f, indent=2)
         return True
     except Exception as e:
-        print(f"保存版本文件失败: {e}")
+        logger.error(f"保存版本文件失败: {e}")
         return False
 
 
@@ -81,7 +82,7 @@ def increment_build_number():
     version_data['build_date'] = _get_current_date()
     
     if _save_version(version_data):
-        print(f"版本号更新: {get_full_version()}")
+        logger.debug(f"版本号更新: {get_full_version()}")
         return True
     return False
 
@@ -145,10 +146,10 @@ def compare_versions(v1, v2):
 # 初始化版本文件
 if not os.path.exists(VERSION_FILE):
     _save_version(DEFAULT_VERSION)
-    print(f"创建版本文件: {VERSION_FILE}")
+    logger.info(f"创建版本文件: {VERSION_FILE}")
 
 if __name__ == "__main__":
-    print(f"当前版本: {get_full_version()}")
-    print(f"版本号: {get_version()}")
-    print(f"构建编号: {get_build_number()}")
-    print(f"构建日期: {get_build_date()}")
+    logger.info(f"当前版本: {get_full_version()}")
+    logger.info(f"版本号: {get_version()}")
+    logger.info(f"构建编号: {get_build_number()}")
+    logger.info(f"构建日期: {get_build_date()}")
